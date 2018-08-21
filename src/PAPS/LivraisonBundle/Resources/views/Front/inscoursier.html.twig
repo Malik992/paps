@@ -1,0 +1,252 @@
+{% extends "::base.html.twig" %}
+{% block stylesheets %}
+<script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+
+<script>
+
+  // Initialize Firebase
+
+  var config = {
+
+    apiKey: "AIzaSyBYFGdCUsdCEBeEzNG4FFI0756H3lScKTI",
+
+    authDomain: "paps-internal.firebaseapp.com",
+
+    databaseURL: "https://paps-internal.firebaseio.com",
+
+    projectId: "paps-internal",
+
+    storageBucket: "paps-internal.appspot.com",
+
+    messagingSenderId: "407081980027"
+
+  };
+
+  firebase.initializeApp(config);
+
+</script>
+<script>
+    var databaseRef = firebase.database().ref('papsers/');
+function Message() {
+    var nomComplet = document.getElementById('nomComplet').value;
+    var tel = document.getElementById('tel').value;
+    var adress = document.getElementById('adress').value;
+    var numPermis = document.getElementById('numPermis').value;
+
+    var mid = firebase.database().ref().child('papsers').push().key;
+
+    var data = {
+        msg_id: mid,
+        msg_nomComplet: nomComplet,
+        msg_tel: tel,
+        msg_adress: adress,
+        msg_numPermis: numPermis,
+		createdAt: Date.now()
+    }
+
+    var updates = {};
+    updates['/papsers/souscriptions/'+mid]=data;
+    firebase.database().ref().update(updates);
+    alert('Vous venez de postuler pour devenir Papser. Nous vous contactons !!');
+    reload_page();
+
+}
+
+function reload_page() {
+    window.location='http://localhost/papsprojet/web/app_dev.php/inscoursier';
+}
+
+</script>
+{{ parent()}}
+{% endblock %}
+
+{% block body %}
+<header id="gtco-header" class="gtco-cover gtco-cover-xs gtco-inner" role="banner">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-left">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="row">
+									<div class="col-md-8">
+										<h1 class="no-margin">Nos Papser</h1>
+										<p>Joignez-vous à une communauté de soutien des pilotes indépendants et profiter des horaires flexibles et des salaires compétitifs.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END #gtco-header -->
+
+		<div class="gtco-services gtco-section">
+			<div class="gtco-container">
+				<div class="row row-pb-sm">
+					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+						<h2>bienvenue à l'academy de Paps.</h2>
+						<p>Nous disposons une academie pour la formation des Papser.</p>
+						<p><button type="button" class="btn btn-special" data-toggle="modal" data-target="#exampleModal">S'inscription</button></p>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      {# ========== #}
+			<h2>Inscrivez vous</h2>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					 <form id="alert">
+							<div class="form-group">
+								<label for="name" id="lab" >Nom et prénom </label>
+								<input type="text" class="form-control" id="nomComplet" name="nomComplet" required>
+							</div>
+							<div class="form-group">
+								<label for="tel" id="lab">Numéro téléphone</label>
+								<input type="number" class="form-control" id="tel" name="tel" required>
+							</div>
+              	<div class="form-group">
+								<label for="adress" id="lab">Adresse</label>
+								<input type="text" class="form-control" id="adress" name="adress" required>
+							</div>
+							<div class="form-group">
+								<label for="number" id="lab">Numéro de permis</label>
+							<input type="number" class="form-control" id="numPermis" name="numPermis" required>
+							</div>
+							<div class="form-group">
+			  				<button type="button" class="btn btn-default submit" onClick="Message()" ><i class="fa fa-paper-plane" aria-hidden="true"></i>Envoyer</button>
+							</div>
+						</form>
+				</div>
+			</div>
+            <hr class="colorgraph">
+		</form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+
+					<div class="col-md-4 col-sm-4 service-wrap">
+						<div class="service">
+							<h3><i class="fa fa-handshake-o"></i>  La rencontre</h3>
+							<p>Rencontrer le candidat en personne permet de valiser ses expériences passées et ses compétences. Lors de l’échange, le candidat doit faire preuve d’honnêteté tout en mettant en avant ses qualités. Le ton de la discussion permet également d’observer et de juger si la personne correspond à ce qui est attendu.  </p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 service-wrap">
+						<div class="service">
+							<h3><i class="fa fa-comments-o"></i> La discussions</h3>
+							<p>L’analyse du CV en amont de l’entretien permet de prendre connaissance des compétences du candidat. L’échange permet de déterminer si le postulant a le savoir requis pour le poste. C’est lors de ce face-à-face qu’il est possible de lui poser des questions et de s’intéresser à son savoir-faire et son savoir-être.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 service-wrap">
+						<div class="service">
+							<h3><i class="fa fa-thumbs-o-up"></i> La validation</h3>
+							<p>Si l'entretient est réussi Paps vous contact pour venir voir l'environnement de l'entreprise, et vous serez la bienvenue chez Paps.</p>
+							<br><br><br><br>
+						</div>
+					</div>
+
+					<div class="clearfix visible-md-block visible-sm-block"></div>
+
+				</div>
+			</div>
+		</div>
+		<!-- END .gtco-services -->
+
+
+		<div class="gtco-section gtco-products">
+			<div class="gtco-container">
+				<div class="row row-pb-sm">
+					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+						<h2>Devenir papser</h2>
+						<p>Suite à votre entretient Paps vous propose une fonction idéal pour le candidat.</p>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-4 col-sm-4">
+						<div class="gtco-item two-row bg-img animate-box img-rounded " style="background-image: url('{{ asset ('images/DSC_0121.JPG')}}')">
+							
+							<img src="{{ asset('images/img_2.jpg')}}" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="gtco-item two-row bg-img animate-box img-rounded" style="background-image: url('{{ asset ('images/DSC_0114.JPG')}}')">
+							
+							<img src="{{ asset('images/img_3.jpg')}}" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="gtco-item two-row bg-img animate-box img-rounded" style="background-image: url('{{ asset ('images/DSC_0125.JPG')}}')">
+							
+							<img src="{{ asset('images/img_4.jpg')}}" class="hidden" alt="Free HTML5 Website Template by GetTemplates.co">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- END .gtco-products -->
+
+		<div class="gtco-section gtco-testimonial gtco-gray">
+			<div class="gtco-container">
+
+				<div class="row row-pb-sm">
+					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+						<h2>Ils aiment ce que l'on fait</h2>
+						<p>Paps, met en disposition des personnes motivés et ambitieuses.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-sm-6 animate-box">
+						<div class="gtco-testimony gtco-left">
+							<div><img src="{{ asset ('images/person_1.jpg')}}" alt="Free Website template by GetTemplates.co"></div>
+							<blockquote>
+								<p>&ldquo;Travailler chez Paps est un réel plaisir.Nous travaillons quotidiennement avec une diversité de clients d'horizons très divers. C'est une vraie source de motivation au quotidien.&rdquo; <cite class="author">&mdash; Moustapha</cite></p>
+							</blockquote>	
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 animate-box">
+						<div class="gtco-testimony gtco-left">
+							<div><img src="{{ asset ('images/person_2.jpg')}}" alt="Free Website template by GetTemplates.co"></div>
+							<blockquote>
+								<p>&ldquo;Rejoindre Paps c'est évoluer dans un écosystème privilégié pour apprendre, développer ses compétences et sa carrière.Tous les salariès sont impliqués au coeur du projet et peuvent mesurer l'impact de leur travail.&rdquo; <cite class="author">&mdash; Marème</cite></p>
+							</blockquote>	
+						</div>
+					</div>
+
+					
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 animate-box">
+						<div class="gtco-testimony gtco-left">
+							<div><img src="{{ asset ('images/person_3.jpg')}}" alt="Free Website template by GetTemplates.co"></div>
+							<blockquote>
+								<p>&ldquo;L'équipe tech est à la pointe de l'innovation ! Nous utilisons des langages de pointe pour construire notre plateforme technologique.Nous participons régulièrement au événements les plus attendus de la scène tech.&rdquo; <cite class="author">&mdash; Malik</cite></p>
+							</blockquote>	
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 animate-box">
+						<div class="gtco-testimony gtco-left">
+							<div><img src="{{ asset ('images/person_4.jpg')}}" alt="Free Website template by GetTemplates.co"></div>
+							<blockquote>
+								<p>&ldquo;L'équipe des opérations est animée par un esprit entrepreneurial et la prise d'initiatives est fortement encouragée.Il y a une vraie émulation entre collaborateurs et une volonté partagée de réussir tous ensemble.&rdquo; <cite class="author">&mdash; Mor</cite></p>
+							</blockquote>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+{% endblock %}

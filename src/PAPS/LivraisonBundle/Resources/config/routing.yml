@@ -1,0 +1,24 @@
+paps_livraison_homepage:
+    path:     /
+    defaults: { _controller: PAPSLivraisonBundle:Default:index }
+
+accueil:
+    path:     /accueil
+    defaults: { _controller: PAPSLivraisonBundle:Front:accueil }
+
+inscoursier:
+    path:     /inscoursier
+    defaults: { _controller: PAPSLivraisonBundle:Front:inscoursier }
+
+contact:
+    path:     /contact
+    defaults: { _controller: PAPSLivraisonBundle:Front:contact }
+
+service:
+    path:     /service
+    defaults: { _controller: PAPSLivraisonBundle:Front:service }
+
+about:
+    path:     /about
+    defaults: { _controller: PAPSLivraisonBundle:Front:about }
+

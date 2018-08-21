@@ -1,0 +1,5 @@
+/**
+ * woody - v1.4.3
+ * Copyright (C) 2016 WumDrop - All Rights Reserved.
+ */
+"use strict";(function(){var e,s,n,r={}.hasOwnProperty,t=function(e,s){function n(){this.constructor=e}for(var t in s)r.call(s,t)&&(e[t]=s[t]);return n.prototype=s.prototype,e.prototype=new n,e.__super__=s.prototype,e};e=jQuery,n='<div class="messenger-spinner">\n    <span class="messenger-spinner-side messenger-spinner-side-left">\n        <span class="messenger-spinner-fill"></span>\n    </span>\n    <span class="messenger-spinner-side messenger-spinner-side-right">\n        <span class="messenger-spinner-fill"></span>\n    </span>\n</div>',s=function(s){function r(){return r.__super__.constructor.apply(this,arguments)}return t(r,s),r.prototype.template=function(s){var t;return t=r.__super__.template.apply(this,arguments),t.append(e(n)),t},r}(window.Messenger.Message),window.Messenger.themes.flat={Message:s}}).call(void 0);

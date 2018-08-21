@@ -1,0 +1,4 @@
+services:
+#    paps_livraison.example:
+#        class: PAPS\LivraisonBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
