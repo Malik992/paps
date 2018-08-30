@@ -127,16 +127,18 @@ function reload_page() {
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 64
-        echo "<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" role=\"banner\">
+        echo "<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/Papsweb1d.jpg"), "html", null, true);
+        echo "');background-size: 100% auto;background-repeat: no-repeat;\"  role=\"banner\">
 \t\t\t<div class=\"gtco-container\">
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-12 col-md-offset-0 text-left\">
 \t\t\t\t\t\t<div class=\"display-t\">
 \t\t\t\t\t\t\t<div class=\"display-tc\">
 \t\t\t\t\t\t\t\t<div class=\"row\">
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-8\">
+\t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">Nos Papser</h1>
-\t\t\t\t\t\t\t\t\t\t<p>Joignez-vous à une communauté de soutien des pilotes indépendants et profiter des horaires flexibles et des salaires compétitifs.</p>
+\t\t\t\t\t\t\t\t\t\t<p>Joignez-vous à une communauté de soutien des pilotes indépendants <br>et profiter des horaires flexibles et des salaires compétitifs.</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
@@ -367,7 +369,7 @@ function reload_page() {
 
     public function getDebugInfo()
     {
-        return array (  338 => 242,  326 => 233,  311 => 221,  299 => 212,  274 => 190,  269 => 188,  262 => 184,  257 => 182,  250 => 178,  245 => 176,  168 => 101,  130 => 64,  121 => 63,  109 => 60,  50 => 3,  41 => 2,  11 => 1,);
+        return array (  340 => 242,  328 => 233,  313 => 221,  301 => 212,  276 => 190,  271 => 188,  264 => 184,  259 => 182,  252 => 178,  247 => 176,  170 => 101,  130 => 64,  121 => 63,  109 => 60,  50 => 3,  41 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -443,16 +445,16 @@ function reload_page() {
 {% endblock %}
 
 {% block body %}
-<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" role=\"banner\">
+<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('{{ asset ('images/Papsweb1d.jpg')}}');background-size: 100% auto;background-repeat: no-repeat;\"  role=\"banner\">
 \t\t\t<div class=\"gtco-container\">
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-12 col-md-offset-0 text-left\">
 \t\t\t\t\t\t<div class=\"display-t\">
 \t\t\t\t\t\t\t<div class=\"display-tc\">
 \t\t\t\t\t\t\t\t<div class=\"row\">
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-8\">
+\t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">Nos Papser</h1>
-\t\t\t\t\t\t\t\t\t\t<p>Joignez-vous à une communauté de soutien des pilotes indépendants et profiter des horaires flexibles et des salaires compétitifs.</p>
+\t\t\t\t\t\t\t\t\t\t<p>Joignez-vous à une communauté de soutien des pilotes indépendants <br>et profiter des horaires flexibles et des salaires compétitifs.</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>

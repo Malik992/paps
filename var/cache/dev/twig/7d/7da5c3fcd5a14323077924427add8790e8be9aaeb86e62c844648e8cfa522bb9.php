@@ -166,18 +166,24 @@ function reload_page() {
 \t\t\t\t\t\t\t<h3>Nos adresse</h3>
 \t\t\t\t\t\t\t<p id=\"lab\">Nos locaux sont à Dakar (Sénégal), derrière EMG</p>
 \t\t\t\t\t\t\t<ul id=\"labb\" >
-\t\t\t\t\t\t\t\t<li id=\"lab\">
-                <i class=\"fa fa-map-marker fa-lg\" aria-hidden=\"true\"></i> &nbsp;&nbsp;&nbsp; Imm. Transfret Rond point EMGxFront de terre.</li>
-\t\t\t\t\t\t\t\t<li id=\"lab\"><a href=\"\">
-                <i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>
-                    &nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98</a></li>
-\t\t\t\t\t\t\t\t<li id=\"lab\">
-                <i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>
-                 <a href=\"\">&nbsp;&nbsp;&nbsp;www.hello@paps.sn</a></li>
-\t\t\t\t\t\t\t\t<li id=\"lab\">
-                <i class=\"fa fa-globe fa-lg\" aria-hidden=\"true\"></i>
-                <a href=\"\">&nbsp;&nbsp;&nbsp;Hello@paps-app.com</a></li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-map-marker fa-lg\" aria-hidden=\"true\"></i> &nbsp;&nbsp;&nbsp; Imm. Transfret Rond point EMGxFront de terre.</li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\"><a href=\"\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>
+\t\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98</a></li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>
+\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;www.hello@paps.sn</a></li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-globe fa-lg\" aria-hidden=\"true\"></i>
+\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;Hello@paps-app.com</a></li>
 \t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"gtco-contact-info\">
+                            <img src=\"";
+        // line 118
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/livreurAnimé.png"), "html", null, true);
+        echo "\" width=\"300\" alt=\"Free Website template by GetTemplates.co\">
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
@@ -205,7 +211,7 @@ function reload_page() {
 
     public function getDebugInfo()
     {
-        return array (  130 => 65,  121 => 64,  109 => 61,  50 => 4,  41 => 3,  11 => 1,);
+        return array (  185 => 118,  130 => 65,  121 => 64,  109 => 61,  50 => 4,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -321,18 +327,21 @@ function reload_page() {
 \t\t\t\t\t\t\t<h3>Nos adresse</h3>
 \t\t\t\t\t\t\t<p id=\"lab\">Nos locaux sont à Dakar (Sénégal), derrière EMG</p>
 \t\t\t\t\t\t\t<ul id=\"labb\" >
-\t\t\t\t\t\t\t\t<li id=\"lab\">
-                <i class=\"fa fa-map-marker fa-lg\" aria-hidden=\"true\"></i> &nbsp;&nbsp;&nbsp; Imm. Transfret Rond point EMGxFront de terre.</li>
-\t\t\t\t\t\t\t\t<li id=\"lab\"><a href=\"\">
-                <i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>
-                    &nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98</a></li>
-\t\t\t\t\t\t\t\t<li id=\"lab\">
-                <i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>
-                 <a href=\"\">&nbsp;&nbsp;&nbsp;www.hello@paps.sn</a></li>
-\t\t\t\t\t\t\t\t<li id=\"lab\">
-                <i class=\"fa fa-globe fa-lg\" aria-hidden=\"true\"></i>
-                <a href=\"\">&nbsp;&nbsp;&nbsp;Hello@paps-app.com</a></li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-map-marker fa-lg\" aria-hidden=\"true\"></i> &nbsp;&nbsp;&nbsp; Imm. Transfret Rond point EMGxFront de terre.</li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\"><a href=\"\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>
+\t\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98</a></li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>
+\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;www.hello@paps.sn</a></li>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
+\t\t\t\t\t\t\t\t\t<i class=\"fa fa-globe fa-lg\" aria-hidden=\"true\"></i>
+\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;Hello@paps-app.com</a></li>
 \t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"gtco-contact-info\">
+                            <img src=\"{{ asset ('images/livreurAnimé.png')}}\" width=\"300\" alt=\"Free Website template by GetTemplates.co\">
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>

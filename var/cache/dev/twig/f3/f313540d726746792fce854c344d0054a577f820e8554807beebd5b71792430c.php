@@ -48,7 +48,7 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
         // line 4
         echo "<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/Papsweb1.jpg"), "html", null, true);
-        echo "');background-size: 1000px;background-size: 100% 100%;background-repeat: no-repeat;\" role=\"banner\">
+        echo "');background-size: 100% auto;background-repeat: no-repeat;\" role=\"banner\">
 \t\t\t<div class=\"gtco-container\">
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-12 col-md-offset-0 text-left\">
@@ -124,15 +124,15 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
 \t\t\t</div>
 \t\t</div>
           <div class=\"gtco-client\">
-\t\t\t<div class=\"gtco-container\">
-\t\t\t\t<div class=\"row row-pb-sm\">
-   \t\t\t\t\t\t <img src=\"";
+\t\t\t\t<div class=\"gtco-container\">
+\t\t\t\t\t<div class=\"row row-pb-sm\">
+\t\t\t\t\t\t\t<img src=\"";
         // line 76
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/Papsweb7.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
-\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t</div>
 \t\t\t\t</div>
-\t\t\t</div>
 \t\t  </div>
 \t\t <div class=\"gtco-client\">
                     <div class=\"gtco-container\">
@@ -327,7 +327,7 @@ Orange-Sonatel</cite></p>
         return new Twig_Source("{% extends \"::base.html.twig\" %}
 
 {% block body %}
-<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('{{ asset ('images/Papsweb1.jpg')}}');background-size: 1000px;background-size: 100% 100%;background-repeat: no-repeat;\" role=\"banner\">
+<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('{{ asset ('images/Papsweb1.jpg')}}');background-size: 100% auto;background-repeat: no-repeat;\" role=\"banner\">
 \t\t\t<div class=\"gtco-container\">
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-12 col-md-offset-0 text-left\">
@@ -397,12 +397,12 @@ Orange-Sonatel</cite></p>
 \t\t\t</div>
 \t\t</div>
           <div class=\"gtco-client\">
-\t\t\t<div class=\"gtco-container\">
-\t\t\t\t<div class=\"row row-pb-sm\">
-   \t\t\t\t\t\t <img src=\"{{ asset ('images/Papsweb7.jpg')}}\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
-\t\t\t\t\t
+\t\t\t\t<div class=\"gtco-container\">
+\t\t\t\t\t<div class=\"row row-pb-sm\">
+\t\t\t\t\t\t\t<img src=\"{{ asset ('images/Papsweb7.jpg')}}\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
+\t\t\t\t\t\t
+\t\t\t\t\t</div>
 \t\t\t\t</div>
-\t\t\t</div>
 \t\t  </div>
 \t\t <div class=\"gtco-client\">
                     <div class=\"gtco-container\">

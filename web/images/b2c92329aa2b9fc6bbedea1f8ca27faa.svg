@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="130px" viewBox="0 0 149 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>EA2136D8-1994-49C8-B1A3-B7957B170F5E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFDA68" offset="0%"></stop>
+            <stop stop-color="#FFAA68" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="94.515994%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.2294978%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.061617e-15%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#4FACF5" offset="0%"></stop>
+            <stop stop-color="#4027E7" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-18.7%" y="-6.3%" width="135.0%" height="119.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="-1" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FF00A7" offset="0%"></stop>
+            <stop stop-color="#FF006E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Attending" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-649.000000, -1582.000000)">
+            <g id="illu-phones" transform="translate(649.000000, 1582.000000)">
+                <rect id="Rectangle-17" fill-opacity="0.15" fill="#4027E7" x="2.60176991" y="0" width="130.088496" height="130" rx="65"></rect>
+                <g id="Group-9-Copy-2" transform="translate(27.770761, 89.023116) rotate(-15.000000) translate(-27.770761, -89.023116) translate(8.257487, 54.573116)">
+                    <path d="M4.16283186,1.15463195e-15 L34.7507912,5.77315973e-16 C37.0498598,1.55271232e-16 38.9136231,1.86249544 38.9136231,4.16 L38.9136231,63.8925146 C38.9136231,66.1900192 37.0498598,68.0525146 34.7507912,68.0525146 L4.16283186,68.0525146 C1.86376331,68.0525146 2.01468161e-15,66.1900192 1.73312692e-15,63.8925146 L0,4.16 C-2.81554694e-16,1.86249544 1.86376331,4.22044741e-16 4.16283186,1.15463195e-15 Z" id="Rectangle-3" fill="url(#linearGradient-1)"></path>
+                    <ellipse id="Oval-3" fill="url(#linearGradient-2)" cx="19.4568115" cy="63.2888386" rx="3.47443063" ry="3.40262573"></ellipse>
+                    <rect id="Rectangle-4" fill="url(#linearGradient-2)" x="2.77954451" y="8.16630176" width="33.3545341" height="50.3588608"></rect>
+                    <path d="M15.9684832,4.08315088 L22.9451399,4.08315088 C23.3212394,4.08315088 23.6261283,4.38783236 23.6261283,4.76367602 C23.6261283,5.13951968 23.3212394,5.44420117 22.9451399,5.44420117 L15.9684832,5.44420117 C15.5923837,5.44420117 15.2874948,5.13951968 15.2874948,4.76367602 C15.2874948,4.38783236 15.5923837,4.08315088 15.9684832,4.08315088 Z" id="Rectangle-30" fill="url(#linearGradient-3)"></path>
+                </g>
+                <g id="Group-9" transform="translate(40.327434, 28.600000)">
+                    <path d="M4.16283186,1.15463195e-15 L43.9699115,1.15463195e-15 C46.2689801,7.32587205e-16 48.1327434,1.86249544 48.1327434,4.16 L48.1327434,79.04 C48.1327434,81.3375046 46.2689801,83.2 43.9699115,83.2 L4.16283186,83.2 C1.86376331,83.2 2.81554694e-16,81.3375046 0,79.04 L1.15541794e-15,4.16 C8.7386325e-16,1.86249544 1.86376331,4.22044741e-16 4.16283186,1.15463195e-15 Z" id="Rectangle-3" fill="url(#linearGradient-4)"></path>
+                    <ellipse id="Oval-3" fill="url(#linearGradient-2)" cx="24.0663717" cy="76.7" rx="4.55309735" ry="3.9"></ellipse>
+                    <rect id="Rectangle-4" fill="url(#linearGradient-2)" x="3.90265487" y="10.4" width="41.6283186" height="61.1"></rect>
+                    <path d="M20.1637168,5.2 L29.2699115,5.2 C29.629141,5.2 29.920354,5.49101491 29.920354,5.85 C29.920354,6.20898509 29.629141,6.5 29.2699115,6.5 L20.1637168,6.5 C19.8044874,6.5 19.5132743,6.20898509 19.5132743,5.85 C19.5132743,5.49101491 19.8044874,5.2 20.1637168,5.2 Z" id="Rectangle-30" fill="url(#linearGradient-3)"></path>
+                </g>
+                <g id="Group-9" filter="url(#filter-5)" transform="translate(108.296558, 61.830708) rotate(15.000000) translate(-108.296558, -61.830708) translate(81.628416, 14.380708)">
+                    <path d="M5.20353982,0 L48.1327434,0 C51.0065791,-5.27555926e-16 53.3362832,2.3281193 53.3362832,5.2 L53.3362832,89.7 C53.3362832,92.5718807 51.0065791,94.9 48.1327434,94.9 L5.20353982,94.9 C2.32970413,94.9 3.51943368e-16,92.5718807 0,89.7 L0,5.2 C-3.51943368e-16,2.3281193 2.32970413,5.27555926e-16 5.20353982,0 Z" id="Rectangle-3" fill="url(#linearGradient-6)"></path>
+                    <ellipse id="Oval-3" fill="url(#linearGradient-3)" cx="26.6681416" cy="88.257" rx="4.76216814" ry="4.745"></ellipse>
+                    <rect id="Rectangle-4" fill="url(#linearGradient-3)" x="3.80973451" y="11.388" width="45.7168142" height="70.226"></rect>
+                    <path d="M21.9031858,5.694 L31.4330973,5.694 C31.9575724,5.694 32.3827434,6.11888177 32.3827434,6.643 C32.3827434,7.16711823 31.9575724,7.592 31.4330973,7.592 L21.9031858,7.592 C21.3787108,7.592 20.9535398,7.16711823 20.9535398,6.643 C20.9535398,6.11888177 21.3787108,5.694 21.9031858,5.694 Z" id="Rectangle-30" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

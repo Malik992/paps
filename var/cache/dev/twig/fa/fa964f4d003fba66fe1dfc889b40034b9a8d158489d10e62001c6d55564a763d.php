@@ -10,7 +10,11 @@ class __TwigTemplate_46034ee8346b73acd0004c8c90e2437a79516a7896d86225db63fd5813e
         // line 1
         $this->parent = $this->loadTemplate("::base.html.twig", "@PAPSLivraison/Front/accueil.html.twig", 1);
         $this->blocks = array(
+            'header' => array($this, 'block_header'),
+            'stylesheets' => array($this, 'block_stylesheets'),
             'body' => array($this, 'block_body'),
+            'footer' => array($this, 'block_footer'),
+            'javascripts' => array($this, 'block_javascripts'),
         );
     }
 
@@ -36,7 +40,150 @@ class __TwigTemplate_46034ee8346b73acd0004c8c90e2437a79516a7896d86225db63fd5813e
 
     }
 
-    // line 4
+    // line 2
+    public function block_header($context, array $blocks = array())
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 3
+    public function block_stylesheets($context, array $blocks = array())
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        // line 5
+        echo "<link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/jquery.fancybox.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 6
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/owl.carousel.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 7
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/owl.transitions.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 8
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/main.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 9
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/responsive.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 10
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/animate.min.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 11
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/line-icon.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 12
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/device-mockups.min.css"), "html", null, true);
+        echo "\">
+<script src=\"https://www.gstatic.com/firebasejs/5.4.0/firebase.js\"></script>
+
+<script>
+
+  // Initialize Firebase
+
+  var config = {
+
+    apiKey: \"AIzaSyBYFGdCUsdCEBeEzNG4FFI0756H3lScKTI\",
+
+    authDomain: \"paps-internal.firebaseapp.com\",
+
+    databaseURL: \"https://paps-internal.firebaseio.com\",
+
+    projectId: \"paps-internal\",
+
+    storageBucket: \"paps-internal.appspot.com\",
+
+    messagingSenderId: \"407081980027\"
+
+  };
+
+  firebase.initializeApp(config);
+
+</script>
+<script>
+    var databaseRef = firebase.database().ref('papsers/');
+function Message() {
+    var email = document.getElementById('email').value;
+
+    var mid = firebase.database().ref().child('papsers').push().key;
+
+    var data = {
+        msg_id: mid,
+        msg_email: email,
+ 
+\t\tcreatedAt: Date.now()
+    }
+
+    var updates = {};
+    updates['/papsers/landingPage/'+mid]=data;
+    firebase.database().ref().update(updates);
+    alert('Votre mail a été bien envoyé!!');
+    reload_page();
+
+}
+function Message1() {
+    var email = document.getElementById('email').value;
+
+    var mid = firebase.database().ref().child('papsers').push().key;
+
+    var data = {
+        msg_id: mid,
+        msg_email: email,
+ 
+\t\tcreatedAt: Date.now()
+    }
+
+    var updates = {};
+    updates['/papsers/landingPage/'+mid]=data;
+    firebase.database().ref().update(updates);
+    alert('Votre mail a été bien envoyé!!');
+    reload_page();
+
+}
+
+function reload_page() {
+    window.location='http://localhost/papsprojet/web/app_dev.php/accueil';
+}
+
+</script>
+
+";
+        // line 85
+        $this->displayParentBlock("stylesheets", $context, $blocks);
+        echo "
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 88
     public function block_body($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -45,315 +192,371 @@ class __TwigTemplate_46034ee8346b73acd0004c8c90e2437a79516a7896d86225db63fd5813e
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 5
-        echo "<header id=\"gtco-header\" class=\"gtco-cover\" role=\"banner\">
-            <div class=\"gtco-container\">
-                <div class=\"row\">
-                    <div class=\"col-md-12 col-md-offset-0 text-left\">
-                        <div class=\"display-t\">
-                            <div class=\"display-tc\">
-                                <div class=\"row\">
-                                    <div class=\"col-md-5 text-center header-img\">
-                                        <img src=\"";
-        // line 13
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/img1.png"), "html", null, true);
-        echo "\" alt=\"Free HTML5 Website Template by GetTemplates.co\">
-                                    </div>
-                                    <div class=\"col-md-7 copy\">
-                                        <h1>Paps, votre livraison passe en vitesse supérieure.</h1>
-                                        <p>Service de logistique urbaine pour les entreprises et les commerçants.</p>
-                                        <p><a href=\"  http://localhost:3000/\" target=\"_blank\" class=\"btn btn-white\">Commencez maintenant</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- END .gtco-client -->
+        // line 89
+        echo "<section class=\"banner\" role=\"banner\" style=\"background-image: url('";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/mapp.png"), "html", null, true);
+        echo "');background-size: 100% 100%;
+    background-repeat: no-repeat;position:relative\">
+<div class=\"overlay\" style=\"position:absolute;background-color:rgba(60, 57, 162, 0.8);\"></div>
+  <div id=\"banner\" class=\"container\">
+    <div class=\"col-md-5 col-sm-12  device\"  style=\"background-image: url('";
+        // line 93
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/iphone.png"), "html", null, true);
+        echo "');background-size: 60% auto;
+    background-repeat: no-repeat;\"> 
+    <img class=\"banner-img img-responsivee\" src=\"";
+        // line 95
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot1.png"), "html", null, true);
+        echo "\">
+      </div>
+     
+          <div class=\"col-md-7 col-sm-12 textheader\">
+                  <div class=\"banner-text\">
+                    <h1>La meilleure experience de <span>livraison</span> en Afrique</h1>
+                    <p>Bénéficiez de courses gratuites ce <b> 07 Septembre 2018 </b> partout à Dakar en téléchargeant l'application Paps dont le lien vous sera envoyé par mail.</p>
+                  </div> 
+          </div>
+          <div class=\"col-md-7 col-sm-12  subscribe-form textheader\">
 
-        <div class=\"gtco-section gtco-products\">
-            <div class=\"gtco-container\">
-                <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Nos offres</h2>
-                        <p>Paps dispose plusieurs services qu'on peut offrir aux entreprises.</p>
-                    </div>
-                </div>
-                <div class=\"row row-pb-md\">
-                    <div class=\"col-md-4 col-sm-4\">
-                        <a href=\"";
-        // line 40
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("service");
-        echo "\" class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/express.png"), "html", null, true);
-        echo "');background-size: 200px;background-repeat: no-repeat;\">
-                        </a>
-                        <h3 id=\"cool\">Livraison express</h3>
-                        <p><center>Paps peut se charger de vos course dans le plus bref délais.</center></p>
-
-                    </div>
-                    <div class=\"col-md-4 col-sm-4\">
-                        <a href=\"";
-        // line 47
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("service");
-        echo "\" class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/document.png"), "html", null, true);
-        echo "');background-size: 200px;background-repeat: no-repeat;\">
-                           
-                        </a>
-                         <h3 id=\"cool\">Livraison document</h3>
-                         <p><center>Nous nous engageons avec vous à préparer, stocker et transmettre tous type de documents.</center></p>
-                         
-                    </div>
-                    <div class=\"col-md-4 col-sm-4\">
-                        <a href=\"";
-        // line 55
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("service");
-        echo "\" class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/colis.png"), "html", null, true);
-        echo "');background-size: 200px;background-repeat: no-repeat;\">
-                          
-                        </a>
-                         <h3 id=\"cool\">Livraison de colis</h3>
-                        <p><center>Paps s'engage à livrer vos colis de manière efficace.</center></p>
-
-                    </div>
-                </div>
-                
-            </div>
+                  <form  name=\"subscribeform\" id=\"subscribeform\" id=\"alert\">
+                <input type=\"text\" name=\"email\" placeholder=\"Entrez votre adresse email\" id=\"email\" required />
+                <button type=\"button\" onClick=\"Message()\"  class=\"btn btn-white lp\">Envoyer</button>
+              </form>
+          </div>
+          <div class=\"col-md-7 col-sm-12\">
+                           <div class=\"banner-btn bouton\">
+                            <img src=\"";
+        // line 113
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/apple-store-btn.png"), "html", null, true);
+        echo "\">
+                            <img src=\"";
+        // line 114
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/google-store-btn.png"), "html", null, true);
+        echo "\" \tstyle=\"margin-left:20px\">
+                          </div>
+          </div>
+  </div>
+</section>
+<!-- overview section -->
+<section id=\"overview\" class=\"section overview\">
+  <div class=\"container\">
+    <div class=\"row\">
+      <div class=\"col-md-4 col-sm-12 \"> 
+      <img src=\"";
+        // line 124
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/b2c92329aa2b9fc6bbedea1f8ca27faa.svg"), "html", null, true);
+        echo "\" style=\"margin-left:50px\" >
+        <div class=\"overview-content\">
+          <h4> <br>L'application</h4>
+          <p>Paps dispose une application très sophistiqué disponible sur Google Play. Téléchargée, faites vos commandes en ligne et Paps se charge de la tâche.</p>
         </div>
-        <!-- END .gtco-products -->
-        <div class=\"gtco-services gtco-section\">
-            <div class=\"gtco-container\">
-            <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Nos avantages</h2>
-                    </div>
-                </div>
-                <div class=\"row row-pb-sm\">
-                    <div class=\"row mdev\">
-                        <div class=\"col-md-4 col-sm-4 service-wrap\">
-                            <div class=\"service\">
-                                <h3><i class=\"fa fa-calendar-check-o\"></i> La livraison</h3>
-                                <p>Appuyez sur un bouton et un chauffeur viendra à vous en moins d'une heure pour vous livrer potre commande. <br> Paps est une entreprise de logistique urbaine et dispose des livreurs motivés à vos services.</p>
-                            </div>
-                        </div>
-                        <div class=\"col-md-4 col-sm-4 service-wrap\">
-                            <div class=\"service animate-change\">
-                                <h3><i class=\"fa fa-dollar\"></i> Le coût</h3>
-                                <p>Gérer toutes vos livraisons d'un endroit où vous pouvez voir les dépenses, les outils de reporting d'accès et économiser sur les coûts logistiques. Vous pouvez faire vos paiements par Orange Money, Carte Bancaire, ou par
-                                    espèce.
-                                </p>
-                            </div>
-                        </div>
-                        <div class=\"col-md-4 col-sm-4 service-wrap\">
-                            <div class=\"service\">
-                                <h3><i class=\"fa fa-unlock-alt\"></i> La sécurité</h3>
-                                <p>Chaque livraison Paps est couvert par une police d'assurance à partir du moment où vos biens sont entre nos mains. Nos livreurs apportent votre commande jusqu'à chez vous en toute sécurité. </p>
-                            </div>
-                        </div>
+      </div>
+      <div class=\"col-md-4 col-sm-12 \"> 
+     <img src=\"";
+        // line 131
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/f722a7451a8706adc582d3ed844bb848.svg"), "html", null, true);
+        echo "\" style=\"margin-left:50px\">
 
-                    </div>
-                    
-                   
-                </div>
-                
-            </div>
-                <div class=\"row\">
-                 <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Simplifiez votre vie.</h2>
-                        <p>Paps permet également de faire des expéditions en régions. En somme, nous permettons de gagner du temps tout en apportant la transparence nécessaire à sécuriser vos expeditions et collecte.</p>
-                    </div>
-                </div>
-                    <div class=\"col-sm-12  gtco-heading text-center\"> 
-                        <iframe width=\"1200\" height=\"550\" src=\"//www.youtube.com/embed/0ciyNxMcLkE?autoplay=0&showinfo=0&controls=0\" frameborder=\"0\" allowfullscreen></iframe>
-                        </p>
-                    </div>
-                    <div class=\"col-sm-12 gto-heading text-center\">
-                    <div class=\"row\">
-                    <div class=\"col-md-12 text-center\">
-                        <p><a href=\"  http://localhost:3000/\" target=\"_blank\" class=\"btn btn-special\">Commencer maintenant</a></p>
-                    </div>
-                </div>
-                    </div>
-                </div>
+        <div class=\"overview-content\">
+          <h4><br>La livraison</h4>
+          <p>Appuyez sur un bouton et un chauffeur viendra à vous en moins d'une heure pour vous livrer potre commande.
+Paps est une entreprise de logistique urbaine et dispose des livreurs motivés à vos services.</p>
         </div>
-        <!-- END .gtco-services -->
-
-\t\t<div class=\"gtco-section gtco-products\">
-\t\t\t<div class=\"gtco-container\">
-\t\t\t\t<div class=\"row row-pb-sm\">
-\t\t\t\t\t<div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-\t\t\t\t\t\t<h2>Etude de cas</h2>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"row row-pb-md\">
-\t\t\t\t\t<div class=\"col-md-4 col-sm-4\">
-\t\t\t\t\t\t<div class=\"gtco-item logo1 bg-img animate-box img-rounded\" id=\"log1\" style=\"background-image: url('";
-        // line 134
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/index.jpg"), "html", null, true);
-        echo "');background-size: 100px;background-repeat: no-repeat;\">
-
-\t\t\t\t\t\t</div>
-                        <div class=\"gtco-item logo1 bg-img animate-box img-rounded\" id=\"log2\" style=\"background-image: url('";
-        // line 137
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/dhl-paris.jpg"), "html", null, true);
-        echo "');background-size: 100px;background-repeat: no-repeat;\">
-
-\t\t\t\t\t\t</div>
-                        <div class=\"gtco-item logo1 bg-img animate-box img-rounded\"nid=\"log3\"  style=\"background-image: url('";
+      </div>
+      <div class=\"col-md-4 col-sm-12 \"> 
+       <img src=\"";
         // line 140
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/auchann.jpg"), "html", null, true);
-        echo "');background-size: 100px;background-repeat: no-repeat;\">
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/d0a66979124d6554385b2f8a5a835586.svg"), "html", null, true);
+        echo "\" style=\"margin-left:50px\">
+        <div class=\"overview-content\">
+          <h4><br>La sécurité</h4>
+          <p>Chaque livraison Paps est couvert par une police d'assurance à partir du moment où vos biens sont entre nos mains. Nos livreurs apportent votre commande jusqu'à chez vous en toute sécurité. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- overview section --> 
+<!-- feature section 1 -->
+<section id=\"features\" class=\"section features1\">
+  <div class=\"container\">
+    <div class=\"row features1-content-space\">
+      <div class=\"col-md-4 col-sm-12\">
+        <div class=\"features1-content left\"> <i class=\"fa fa-id-badge fa-2x\" aria-hidden=\"true\"></i>
 
-\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-8 col-sm-4\" >
-\t\t\t\t\t\t<div class=\"col-md-12 col-sm-12 service-wrap\" id=\"logo1\">
-\t\t\t\t\t\t<div class=\"service\">
-\t\t\t\t\t\t\t<h3> Orange </h3>
-\t\t\t\t\t\t\t<p>propos</p>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t     </div>
-                         <div class=\"col-md-12 col-sm-12 service-wrap\" id=\"logo2\">
-\t\t\t\t\t\t<div class=\"service\">
-\t\t\t\t\t\t\t<h3> Dhl </h3>
-\t\t\t\t\t\t\t<p>propos</p>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t     </div>
-                         <div class=\"col-md-12 col-sm-12 service-wrap\" id=\"logo3\">
-\t\t\t\t\t\t<div class=\"service\">
-\t\t\t\t\t\t\t<h3> Auchan </h3>
-\t\t\t\t\t\t\t<p>propos</p>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t     </div>
-\t\t\t\t\t</div>
-\t\t\t\t\t
-\t\t\t\t</div>
-                
-\t\t\t</div>
-\t\t</div>
-        ";
-        // line 170
-        echo " <script>
-\$(document).ready(function(){
-        \$(\"#logo1\").show();
-        \$(\"#logo2\").hide();
-        \$(\"#logo3\").hide();
-    \$(\"#log2\").hover(function(){
-        \$(\"#logo2\").show().delay(5000);
-        \$(\"#logo3\").hide().delay(5000);
-        \$(\"#logo1\").hide().delay(5000);
+          <h4>Commande</h4>
+          <p>Vous pouvez passer vos commandes sur l'application. Et vous pouvez suivre la commande en cours de réalisation. </p>
+        </div>
+        <div class=\"features1-content left\"> <i class=\"fa fa-comments-o fa-2x\"></i>
+          <h4>Chat</h4>
+          <p>Un espace chat pour parler avec un de nos agents sur l'état de votre commande ou si vous voulez annuler la commande. Ainsi vous aurez des réponses instantanées.</p>
+        </div>
+      </div>
+      <div class=\"col-md-4 col-sm-12 middle\" style=\"bottom: -70px;\" > 
+      <img class=\"img-responsive1\" src=\"";
+        // line 166
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/slider1.png"), "html", null, true);
+        echo "\" > </div>
+      <div class=\"col-md-4 col-sm-12\" style=\"bottom: -50px;\">
+        <div class=\"features1-content right\"> 
+       <i class=\"fa fa-credit-card fa-2x\" aria-hidden=\"true\"></i>
 
-    });
-     \$(\"#log3\").hover(function(){
-        \$(\"#logo3\").show().delay(5000);
-        \$(\"#logo1\").hide().delay(5000);
-        \$(\"#logo2\").hide().delay(5000);
+          <h4>Paiement</h4>
+          <p>Paps met en place le paiement par code promo et le paiement par credit. Et ceci pour la satisfaction sur nos clients qui nous sommes fidéles. </p>
+        </div>
+        <div class=\"features1-content right\"> 
+        <i class=\" \tfa fa-group fa-2x\" aria-hidden=\"true\"></i>
 
-    });
-      \$(\"#log1\").hover(function(){
-        \$(\"#logo1\").show().delay(5000);
-        \$(\"#logo2\").hide().delay(5000);
-        \$(\"#logo3\").hide().delay(5000);
+          <h4>parainage</h4>
+          <p>Vous pouvez envoyer un code parainage par message via application web ou mobile et bénéficiez tous les deux une course gratuite. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- feature section 1 --> 
+<div class=\"container\" id=\"carousel\">
+    <div id=\"carouselExample\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"3000\">
+        <div class=\"carousel-inner row w-100 mx-auto\" role=\"listbox\" id=\"img-saveurs\">
+            <div class=\"carousel-item col-md-3  active\">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 192
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot1.png"), "html", null, true);
+        echo "\">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\"  class=\"thumb\">
+                     <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 201
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot2.png"), "html", null, true);
+        echo "\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" class=\"thumb\">
+                     <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 210
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot3.png"), "html", null, true);
+        echo "\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+                <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" title=\"image 5\" class=\"thumb\">
+                     <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 219
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot4.png"), "html", null, true);
+        echo "\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+              <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 228
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot5.png"), "html", null, true);
+        echo "\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\"  class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 237
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot6.png"), "html", null, true);
+        echo "\"  >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\"  class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"";
+        // line 246
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/shot7.png"), "html", null, true);
+        echo "\"  >
+                    </a>
+                  </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+<!--subscribe section -->
+<section id=\"download\" class=\"section subscribe\">
+  <div class=\"overlay\"></div>
+  <div class=\"container\">
+    <div class=\"row\">
+      <div class=\"col-md-8 col-md-offset-2 text-center\">
+        <h2>Télécharger gratuitement l'application de Paps<span>maintenant!</span></h2>
+        <p>Pour bénéficier des livraisons gratuites , envoyez vite votre mail. </p>
+        <div  class=\"banner-btn\"> 
+        <img src=\"";
+        // line 264
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/apple-store-btn.png"), "html", null, true);
+        echo "\">
+         <img src=\"";
+        // line 265
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/google-store-btn.png"), "html", null, true);
+        echo "\">
+         </div>
+      </div>
+    </div>
+    <div class=\"row\">
+      <div class=\"col-md-6 col-md-offset-3 text-center subscribe-form\">
+        <h3 class=\"subscribe-title\">Nous vous contactons sur votre boite mail.</h3>
+        <!-- subscribe form -->
+        <form  name=\"subscribeform\" id=\"subscribeform\" id=\"alert\">
+          <input type=\"text\" name=\"email\" placeholder=\"Entrez votre adresse email\" id=\"email\" required />
+          <button type=\"button\" onClick=\"Message1()\"  class=\"btn btn-white lp\">Envoyer</button>
+        </form>
+        <!-- subscribe message -->
+        <div id=\"mesaj\"></div>
+        <!-- subscribe message --> 
+      </div>
+      <!-- subscribe form --> 
+    </div>
+  </div>
+</section>
+<!--subscribe section --> 
+ <nav class=\"gtco-nav\" role=\"navigation\">
+            <div class=\"gtco-container\">
 
-    });
- 
+                <div class=\"row\">
+                    <div class=\"col-sm-2 col-xs-12\">
+                        <div id=\"gtco-logo\">
+                            <a href=\"";
+        // line 292
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("accueil");
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/paps.png"), "html", null, true);
+        echo "\" alt=\"Free HTML5 Website Template by GetTemplates.co\"></a>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-10 text-right menu-1\">
+                   <ul>
+                            <li><a href=\"";
+        // line 297
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("accueil");
+        echo "\">ACCUEIL</a></li>
+                            <li><a href=\"";
+        // line 298
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("service");
+        echo "\">SERVICES</a></li>
+                            <li class=\"dropdown-item\"><a href=\"";
+        // line 299
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("inscoursier");
+        echo "\">DEVENIR PAPSER</a></li>
+
+                            <li><a href=\"";
+        // line 301
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("about");
+        echo "\">A PROPOS</a></li>
+                            <li><a href=\"";
+        // line 302
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("contact");
+        echo "\">NOS CONTACT</a></li>
+
+                            <li>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <li><a href=\"https://monespace.paps.sn\" target=\"_blank\">ACCEDER A MON COMPTE</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 313
+    public function block_footer($context, array $blocks = array())
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 314
+    public function block_javascripts($context, array $blocks = array())
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+
+        // line 315
+        echo "<script>
+
+\$('#carousel').on('slide.bs.carousel', function (e) {
+
+    var \$e = \$(e.relatedTarget);
+    var idx = \$e.index();
+    var itemsPerSlide = 4;
+    var totalItems = \$('.carousel-item').length;
+
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction==\"left\") {
+                \$('.carousel-item').eq(i).appendTo('.carousel-inner');
+            }
+            else {
+                \$('.carousel-item').eq(0).appendTo('.carousel-inner');
+            }
+        }
+    }
 });
 </script>
+    <script src=\"";
+        // line 338
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js/jquery.subscribe.js"), "html", null, true);
+        echo "\"></script>
 
-
-
-        ";
-        // line 200
+";
+        // line 340
+        $this->displayParentBlock("javascripts", $context, $blocks);
         echo "
-        <div class=\"gtco-section gtco-testimonial gtco-gray\">
-            <div class=\"gtco-container\">
-
-                <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Il parle de nous</h2>
-                        <p>Paps offre des solutions sur mesure uniques pour le transport de marchandises dans les villes en consolidant et rationalisant les plates-formes logistiques existantes.</p>
-                    </div>
-                </div>
-
-                <div class=\"row\">
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                             <a id=\"lab\" target=\"_blank\" href=\"https://sekou.org/magazine/2017/02/08/paps-premiere-startup-africaine-de-livraison-geolocalisee/\">
-                            <img src=\"";
-        // line 216
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/sekou-logo.png"), "html", null, true);
-        echo "\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Paps entend réinventer la livraison rapide en Afrique. Pour cela, la startup a développé une application de livraison géolocalisée qui sollicite les livreurs les ... &rdquo; <cite class=\"author\">&mdash;Sekou </cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                            <a id=\"lab\" target=\"_blank\" href=\"https://www.africalogisticsmagazine.com/fr/content/interview-de-m-bamba-lo-directeur-general-de-paps\">
-                            <img src=\"";
-        // line 229
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/logoalm.png"), "html", null, true);
-        echo "\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Bamba LO est un sénégalais de la diaspora qui a décidé de rentrer au Sénégal et de s’installer, il y’a quelques années, après une expérience professionnelle ...&rdquo;
-                                    <cite class=\"author\">&mdash; africa logistics magazine</cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class=\"row\">
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                            <a id=\"lab\" target=\"_blank\" href=\"http://startupbrics.com/africatech-paps-application-livraison-geolocalisee-afrique/#.W3GLfxi2yb-\" >
-                            <img src=\"";
-        // line 246
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/startups-brics.jpg"), "html", null, true);
-        echo "\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Tout est parti d’un constat utilisateur : j’avais à l’époque un centre d’appels qui a été amené à vendre des abonnements téléphoniques. Le taux d’encaissement ....&rdquo;
-                                    <cite class=\"author\">&mdash; startupbrics</cite>
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                            <a id=\"lab\" target=\"_blank\" href=\"https://www.bbc.com/afrique/region-39673233\">
-                            <img src=\"";
-        // line 261
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/bbc.jpg"), "html", null, true);
-        echo "\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Bamba Lô et son équipe n'en sont pas encore là mais l'expérimentation démarre dans un mois à Dakar. Le fondateur de Paps, l'application de livraison à la demande géolocalisée...&rdquo; <cite class=\"author\">&mdash; BBC</cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -375,7 +578,7 @@ class __TwigTemplate_46034ee8346b73acd0004c8c90e2437a79516a7896d86225db63fd5813e
 
     public function getDebugInfo()
     {
-        return array (  345 => 261,  327 => 246,  307 => 229,  291 => 216,  273 => 200,  242 => 170,  210 => 140,  204 => 137,  198 => 134,  114 => 55,  101 => 47,  89 => 40,  59 => 13,  49 => 5,  40 => 4,  11 => 1,);
+        return array (  558 => 340,  553 => 338,  528 => 315,  519 => 314,  502 => 313,  481 => 302,  477 => 301,  472 => 299,  468 => 298,  464 => 297,  454 => 292,  424 => 265,  420 => 264,  399 => 246,  387 => 237,  375 => 228,  363 => 219,  351 => 210,  339 => 201,  327 => 192,  298 => 166,  269 => 140,  257 => 131,  247 => 124,  234 => 114,  230 => 113,  209 => 95,  204 => 93,  196 => 89,  187 => 88,  175 => 85,  99 => 12,  95 => 11,  91 => 10,  87 => 9,  83 => 8,  79 => 7,  75 => 6,  70 => 5,  61 => 3,  44 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -389,276 +592,345 @@ class __TwigTemplate_46034ee8346b73acd0004c8c90e2437a79516a7896d86225db63fd5813e
     public function getSourceContext()
     {
         return new Twig_Source("{% extends \"::base.html.twig\" %}
+{% block header %}{% endblock %}
+{% block stylesheets %}
+{# === #}
+<link rel=\"stylesheet\" href=\"{{ asset ('css/jquery.fancybox.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/owl.carousel.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/owl.transitions.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/main.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/responsive.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/animate.min.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/line-icon.css')}}\">
+<link rel=\"stylesheet\" href=\"{{ asset ('css/device-mockups.min.css')}}\">
+<script src=\"https://www.gstatic.com/firebasejs/5.4.0/firebase.js\"></script>
 
+<script>
 
-{% block body %}
-<header id=\"gtco-header\" class=\"gtco-cover\" role=\"banner\">
-            <div class=\"gtco-container\">
-                <div class=\"row\">
-                    <div class=\"col-md-12 col-md-offset-0 text-left\">
-                        <div class=\"display-t\">
-                            <div class=\"display-tc\">
-                                <div class=\"row\">
-                                    <div class=\"col-md-5 text-center header-img\">
-                                        <img src=\"{{ asset('images/img1.png')}}\" alt=\"Free HTML5 Website Template by GetTemplates.co\">
-                                    </div>
-                                    <div class=\"col-md-7 copy\">
-                                        <h1>Paps, votre livraison passe en vitesse supérieure.</h1>
-                                        <p>Service de logistique urbaine pour les entreprises et les commerçants.</p>
-                                        <p><a href=\"  http://localhost:3000/\" target=\"_blank\" class=\"btn btn-white\">Commencez maintenant</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- END .gtco-client -->
+  // Initialize Firebase
 
-        <div class=\"gtco-section gtco-products\">
-            <div class=\"gtco-container\">
-                <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Nos offres</h2>
-                        <p>Paps dispose plusieurs services qu'on peut offrir aux entreprises.</p>
-                    </div>
-                </div>
-                <div class=\"row row-pb-md\">
-                    <div class=\"col-md-4 col-sm-4\">
-                        <a href=\"{{ path ('service')}}\" class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('{{ asset ('images/express.png')}}');background-size: 200px;background-repeat: no-repeat;\">
-                        </a>
-                        <h3 id=\"cool\">Livraison express</h3>
-                        <p><center>Paps peut se charger de vos course dans le plus bref délais.</center></p>
+  var config = {
 
-                    </div>
-                    <div class=\"col-md-4 col-sm-4\">
-                        <a href=\"{{ path ('service')}}\" class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('{{ asset ('images/document.png')}}');background-size: 200px;background-repeat: no-repeat;\">
-                           
-                        </a>
-                         <h3 id=\"cool\">Livraison document</h3>
-                         <p><center>Nous nous engageons avec vous à préparer, stocker et transmettre tous type de documents.</center></p>
-                         
-                    </div>
-                    <div class=\"col-md-4 col-sm-4\">
-                        <a href=\"{{ path ('service')}}\" class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('{{ asset ('images/colis.png')}}');background-size: 200px;background-repeat: no-repeat;\">
-                          
-                        </a>
-                         <h3 id=\"cool\">Livraison de colis</h3>
-                        <p><center>Paps s'engage à livrer vos colis de manière efficace.</center></p>
+    apiKey: \"AIzaSyBYFGdCUsdCEBeEzNG4FFI0756H3lScKTI\",
 
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        <!-- END .gtco-products -->
-        <div class=\"gtco-services gtco-section\">
-            <div class=\"gtco-container\">
-            <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Nos avantages</h2>
-                    </div>
-                </div>
-                <div class=\"row row-pb-sm\">
-                    <div class=\"row mdev\">
-                        <div class=\"col-md-4 col-sm-4 service-wrap\">
-                            <div class=\"service\">
-                                <h3><i class=\"fa fa-calendar-check-o\"></i> La livraison</h3>
-                                <p>Appuyez sur un bouton et un chauffeur viendra à vous en moins d'une heure pour vous livrer potre commande. <br> Paps est une entreprise de logistique urbaine et dispose des livreurs motivés à vos services.</p>
-                            </div>
-                        </div>
-                        <div class=\"col-md-4 col-sm-4 service-wrap\">
-                            <div class=\"service animate-change\">
-                                <h3><i class=\"fa fa-dollar\"></i> Le coût</h3>
-                                <p>Gérer toutes vos livraisons d'un endroit où vous pouvez voir les dépenses, les outils de reporting d'accès et économiser sur les coûts logistiques. Vous pouvez faire vos paiements par Orange Money, Carte Bancaire, ou par
-                                    espèce.
-                                </p>
-                            </div>
-                        </div>
-                        <div class=\"col-md-4 col-sm-4 service-wrap\">
-                            <div class=\"service\">
-                                <h3><i class=\"fa fa-unlock-alt\"></i> La sécurité</h3>
-                                <p>Chaque livraison Paps est couvert par une police d'assurance à partir du moment où vos biens sont entre nos mains. Nos livreurs apportent votre commande jusqu'à chez vous en toute sécurité. </p>
-                            </div>
-                        </div>
+    authDomain: \"paps-internal.firebaseapp.com\",
 
-                    </div>
-                    
-                   
-                </div>
-                
-            </div>
-                <div class=\"row\">
-                 <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Simplifiez votre vie.</h2>
-                        <p>Paps permet également de faire des expéditions en régions. En somme, nous permettons de gagner du temps tout en apportant la transparence nécessaire à sécuriser vos expeditions et collecte.</p>
-                    </div>
-                </div>
-                    <div class=\"col-sm-12  gtco-heading text-center\"> 
-                        <iframe width=\"1200\" height=\"550\" src=\"//www.youtube.com/embed/0ciyNxMcLkE?autoplay=0&showinfo=0&controls=0\" frameborder=\"0\" allowfullscreen></iframe>
-                        </p>
-                    </div>
-                    <div class=\"col-sm-12 gto-heading text-center\">
-                    <div class=\"row\">
-                    <div class=\"col-md-12 text-center\">
-                        <p><a href=\"  http://localhost:3000/\" target=\"_blank\" class=\"btn btn-special\">Commencer maintenant</a></p>
-                    </div>
-                </div>
-                    </div>
-                </div>
-        </div>
-        <!-- END .gtco-services -->
+    databaseURL: \"https://paps-internal.firebaseio.com\",
 
-\t\t<div class=\"gtco-section gtco-products\">
-\t\t\t<div class=\"gtco-container\">
-\t\t\t\t<div class=\"row row-pb-sm\">
-\t\t\t\t\t<div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-\t\t\t\t\t\t<h2>Etude de cas</h2>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"row row-pb-md\">
-\t\t\t\t\t<div class=\"col-md-4 col-sm-4\">
-\t\t\t\t\t\t<div class=\"gtco-item logo1 bg-img animate-box img-rounded\" id=\"log1\" style=\"background-image: url('{{ asset ('images/index.jpg')}}');background-size: 100px;background-repeat: no-repeat;\">
+    projectId: \"paps-internal\",
 
-\t\t\t\t\t\t</div>
-                        <div class=\"gtco-item logo1 bg-img animate-box img-rounded\" id=\"log2\" style=\"background-image: url('{{ asset ('images/dhl-paris.jpg')}}');background-size: 100px;background-repeat: no-repeat;\">
+    storageBucket: \"paps-internal.appspot.com\",
 
-\t\t\t\t\t\t</div>
-                        <div class=\"gtco-item logo1 bg-img animate-box img-rounded\"nid=\"log3\"  style=\"background-image: url('{{ asset ('images/auchann.jpg')}}');background-size: 100px;background-repeat: no-repeat;\">
+    messagingSenderId: \"407081980027\"
 
-\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-8 col-sm-4\" >
-\t\t\t\t\t\t<div class=\"col-md-12 col-sm-12 service-wrap\" id=\"logo1\">
-\t\t\t\t\t\t<div class=\"service\">
-\t\t\t\t\t\t\t<h3> Orange </h3>
-\t\t\t\t\t\t\t<p>propos</p>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t     </div>
-                         <div class=\"col-md-12 col-sm-12 service-wrap\" id=\"logo2\">
-\t\t\t\t\t\t<div class=\"service\">
-\t\t\t\t\t\t\t<h3> Dhl </h3>
-\t\t\t\t\t\t\t<p>propos</p>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t     </div>
-                         <div class=\"col-md-12 col-sm-12 service-wrap\" id=\"logo3\">
-\t\t\t\t\t\t<div class=\"service\">
-\t\t\t\t\t\t\t<h3> Auchan </h3>
-\t\t\t\t\t\t\t<p>propos</p>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t     </div>
-\t\t\t\t\t</div>
-\t\t\t\t\t
-\t\t\t\t</div>
-                
-\t\t\t</div>
-\t\t</div>
-        {# ============== #}
- <script>
-\$(document).ready(function(){
-        \$(\"#logo1\").show();
-        \$(\"#logo2\").hide();
-        \$(\"#logo3\").hide();
-    \$(\"#log2\").hover(function(){
-        \$(\"#logo2\").show().delay(5000);
-        \$(\"#logo3\").hide().delay(5000);
-        \$(\"#logo1\").hide().delay(5000);
+  };
 
-    });
-     \$(\"#log3\").hover(function(){
-        \$(\"#logo3\").show().delay(5000);
-        \$(\"#logo1\").hide().delay(5000);
-        \$(\"#logo2\").hide().delay(5000);
+  firebase.initializeApp(config);
 
-    });
-      \$(\"#log1\").hover(function(){
-        \$(\"#logo1\").show().delay(5000);
-        \$(\"#logo2\").hide().delay(5000);
-        \$(\"#logo3\").hide().delay(5000);
+</script>
+<script>
+    var databaseRef = firebase.database().ref('papsers/');
+function Message() {
+    var email = document.getElementById('email').value;
 
-    });
+    var mid = firebase.database().ref().child('papsers').push().key;
+
+    var data = {
+        msg_id: mid,
+        msg_email: email,
  
-});
+\t\tcreatedAt: Date.now()
+    }
+
+    var updates = {};
+    updates['/papsers/landingPage/'+mid]=data;
+    firebase.database().ref().update(updates);
+    alert('Votre mail a été bien envoyé!!');
+    reload_page();
+
+}
+function Message1() {
+    var email = document.getElementById('email').value;
+
+    var mid = firebase.database().ref().child('papsers').push().key;
+
+    var data = {
+        msg_id: mid,
+        msg_email: email,
+ 
+\t\tcreatedAt: Date.now()
+    }
+
+    var updates = {};
+    updates['/papsers/landingPage/'+mid]=data;
+    firebase.database().ref().update(updates);
+    alert('Votre mail a été bien envoyé!!');
+    reload_page();
+
+}
+
+function reload_page() {
+    window.location='http://localhost/papsprojet/web/app_dev.php/accueil';
+}
+
 </script>
 
+{{ parent ()}}
+{% endblock %}
 
+{% block body %}
+<section class=\"banner\" role=\"banner\" style=\"background-image: url('{{ asset ('images/mapp.png')}}');background-size: 100% 100%;
+    background-repeat: no-repeat;position:relative\">
+<div class=\"overlay\" style=\"position:absolute;background-color:rgba(60, 57, 162, 0.8);\"></div>
+  <div id=\"banner\" class=\"container\">
+    <div class=\"col-md-5 col-sm-12  device\"  style=\"background-image: url('{{ asset ('images/iphone.png')}}');background-size: 60% auto;
+    background-repeat: no-repeat;\"> 
+    <img class=\"banner-img img-responsivee\" src=\"{{ asset ('images/shot1.png')}}\">
+      </div>
+     
+          <div class=\"col-md-7 col-sm-12 textheader\">
+                  <div class=\"banner-text\">
+                    <h1>La meilleure experience de <span>livraison</span> en Afrique</h1>
+                    <p>Bénéficiez de courses gratuites ce <b> 07 Septembre 2018 </b> partout à Dakar en téléchargeant l'application Paps dont le lien vous sera envoyé par mail.</p>
+                  </div> 
+          </div>
+          <div class=\"col-md-7 col-sm-12  subscribe-form textheader\">
 
-        {# ================ #}
+                  <form  name=\"subscribeform\" id=\"subscribeform\" id=\"alert\">
+                <input type=\"text\" name=\"email\" placeholder=\"Entrez votre adresse email\" id=\"email\" required />
+                <button type=\"button\" onClick=\"Message()\"  class=\"btn btn-white lp\">Envoyer</button>
+              </form>
+          </div>
+          <div class=\"col-md-7 col-sm-12\">
+                           <div class=\"banner-btn bouton\">
+                            <img src=\"{{ asset ('images/apple-store-btn.png')}}\">
+                            <img src=\"{{ asset ('images/google-store-btn.png')}}\" \tstyle=\"margin-left:20px\">
+                          </div>
+          </div>
+  </div>
+</section>
+<!-- overview section -->
+<section id=\"overview\" class=\"section overview\">
+  <div class=\"container\">
+    <div class=\"row\">
+      <div class=\"col-md-4 col-sm-12 \"> 
+      <img src=\"{{ asset ('images/b2c92329aa2b9fc6bbedea1f8ca27faa.svg')}}\" style=\"margin-left:50px\" >
+        <div class=\"overview-content\">
+          <h4> <br>L'application</h4>
+          <p>Paps dispose une application très sophistiqué disponible sur Google Play. Téléchargée, faites vos commandes en ligne et Paps se charge de la tâche.</p>
+        </div>
+      </div>
+      <div class=\"col-md-4 col-sm-12 \"> 
+     <img src=\"{{ asset ('images/f722a7451a8706adc582d3ed844bb848.svg')}}\" style=\"margin-left:50px\">
 
-        <div class=\"gtco-section gtco-testimonial gtco-gray\">
-            <div class=\"gtco-container\">
+        <div class=\"overview-content\">
+          <h4><br>La livraison</h4>
+          <p>Appuyez sur un bouton et un chauffeur viendra à vous en moins d'une heure pour vous livrer potre commande.
+Paps est une entreprise de logistique urbaine et dispose des livreurs motivés à vos services.</p>
+        </div>
+      </div>
+      <div class=\"col-md-4 col-sm-12 \"> 
+       <img src=\"{{ asset ('images/d0a66979124d6554385b2f8a5a835586.svg')}}\" style=\"margin-left:50px\">
+        <div class=\"overview-content\">
+          <h4><br>La sécurité</h4>
+          <p>Chaque livraison Paps est couvert par une police d'assurance à partir du moment où vos biens sont entre nos mains. Nos livreurs apportent votre commande jusqu'à chez vous en toute sécurité. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- overview section --> 
+<!-- feature section 1 -->
+<section id=\"features\" class=\"section features1\">
+  <div class=\"container\">
+    <div class=\"row features1-content-space\">
+      <div class=\"col-md-4 col-sm-12\">
+        <div class=\"features1-content left\"> <i class=\"fa fa-id-badge fa-2x\" aria-hidden=\"true\"></i>
 
-                <div class=\"row row-pb-sm\">
-                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Il parle de nous</h2>
-                        <p>Paps offre des solutions sur mesure uniques pour le transport de marchandises dans les villes en consolidant et rationalisant les plates-formes logistiques existantes.</p>
-                    </div>
-                </div>
+          <h4>Commande</h4>
+          <p>Vous pouvez passer vos commandes sur l'application. Et vous pouvez suivre la commande en cours de réalisation. </p>
+        </div>
+        <div class=\"features1-content left\"> <i class=\"fa fa-comments-o fa-2x\"></i>
+          <h4>Chat</h4>
+          <p>Un espace chat pour parler avec un de nos agents sur l'état de votre commande ou si vous voulez annuler la commande. Ainsi vous aurez des réponses instantanées.</p>
+        </div>
+      </div>
+      <div class=\"col-md-4 col-sm-12 middle\" style=\"bottom: -70px;\" > 
+      <img class=\"img-responsive1\" src=\"{{ asset ('images/slider1.png')}}\" > </div>
+      <div class=\"col-md-4 col-sm-12\" style=\"bottom: -50px;\">
+        <div class=\"features1-content right\"> 
+       <i class=\"fa fa-credit-card fa-2x\" aria-hidden=\"true\"></i>
 
-                <div class=\"row\">
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                             <a id=\"lab\" target=\"_blank\" href=\"https://sekou.org/magazine/2017/02/08/paps-premiere-startup-africaine-de-livraison-geolocalisee/\">
-                            <img src=\"{{ asset ('images/sekou-logo.png')}}\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Paps entend réinventer la livraison rapide en Afrique. Pour cela, la startup a développé une application de livraison géolocalisée qui sollicite les livreurs les ... &rdquo; <cite class=\"author\">&mdash;Sekou </cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
+          <h4>Paiement</h4>
+          <p>Paps met en place le paiement par code promo et le paiement par credit. Et ceci pour la satisfaction sur nos clients qui nous sommes fidéles. </p>
+        </div>
+        <div class=\"features1-content right\"> 
+        <i class=\" \tfa fa-group fa-2x\" aria-hidden=\"true\"></i>
 
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                            <a id=\"lab\" target=\"_blank\" href=\"https://www.africalogisticsmagazine.com/fr/content/interview-de-m-bamba-lo-directeur-general-de-paps\">
-                            <img src=\"{{ asset ('images/logoalm.png')}}\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Bamba LO est un sénégalais de la diaspora qui a décidé de rentrer au Sénégal et de s’installer, il y’a quelques années, après une expérience professionnelle ...&rdquo;
-                                    <cite class=\"author\">&mdash; africa logistics magazine</cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class=\"row\">
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                            <a id=\"lab\" target=\"_blank\" href=\"http://startupbrics.com/africatech-paps-application-livraison-geolocalisee-afrique/#.W3GLfxi2yb-\" >
-                            <img src=\"{{ asset ('images/startups-brics.jpg')}}\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Tout est parti d’un constat utilisateur : j’avais à l’époque un centre d’appels qui a été amené à vendre des abonnements téléphoniques. Le taux d’encaissement ....&rdquo;
-                                    <cite class=\"author\">&mdash; startupbrics</cite>
-                                </p>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class=\"col-md-6 col-sm-6 animate-box\">
-                        <div class=\"gtco-testimony gtco-left\">
-                            <div>
-                            <a id=\"lab\" target=\"_blank\" href=\"https://www.bbc.com/afrique/region-39673233\">
-                            <img src=\"{{ asset ('images/bbc.jpg')}}\" alt=\"Free Website template by GetTemplates.co\">
-                            </a>
-                            </div>
-                            <blockquote>
-                                <p>&ldquo;Bamba Lô et son équipe n'en sont pas encore là mais l'expérimentation démarre dans un mois à Dakar. Le fondateur de Paps, l'application de livraison à la demande géolocalisée...&rdquo; <cite class=\"author\">&mdash; BBC</cite></p>
-                            </blockquote>
-                        </div>
-                    </div>
+          <h4>parainage</h4>
+          <p>Vous pouvez envoyer un code parainage par message via application web ou mobile et bénéficiez tous les deux une course gratuite. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- feature section 1 --> 
+<div class=\"container\" id=\"carousel\">
+    <div id=\"carouselExample\" class=\"carousel slide\" data-ride=\"carousel\" data-interval=\"3000\">
+        <div class=\"carousel-inner row w-100 mx-auto\" role=\"listbox\" id=\"img-saveurs\">
+            <div class=\"carousel-item col-md-3  active\">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot1.png')}}\">
+                    </a>
+                  </div>
                 </div>
             </div>
-        </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\"  class=\"thumb\">
+                     <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot2.png')}}\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" class=\"thumb\">
+                     <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot3.png')}}\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+                <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" title=\"image 5\" class=\"thumb\">
+                     <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot4.png')}}\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+              <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\" class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot5.png')}}\" >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\"  class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot6.png')}}\"  >
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class=\"carousel-item col-md-3 \">
+               <div class=\"panel panel-default\">
+                  <div class=\"panel-thumbnail\">
+                    <a href=\"\"  class=\"thumb\">
+                      <img class=\"img-fluid mx-auto d-block img-rounded \" src=\"{{ asset ('images/shot7.png')}}\"  >
+                    </a>
+                  </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+<!--subscribe section -->
+<section id=\"download\" class=\"section subscribe\">
+  <div class=\"overlay\"></div>
+  <div class=\"container\">
+    <div class=\"row\">
+      <div class=\"col-md-8 col-md-offset-2 text-center\">
+        <h2>Télécharger gratuitement l'application de Paps<span>maintenant!</span></h2>
+        <p>Pour bénéficier des livraisons gratuites , envoyez vite votre mail. </p>
+        <div  class=\"banner-btn\"> 
+        <img src=\"{{ asset ('images/apple-store-btn.png')}}\">
+         <img src=\"{{ asset ('images/google-store-btn.png')}}\">
+         </div>
+      </div>
+    </div>
+    <div class=\"row\">
+      <div class=\"col-md-6 col-md-offset-3 text-center subscribe-form\">
+        <h3 class=\"subscribe-title\">Nous vous contactons sur votre boite mail.</h3>
+        <!-- subscribe form -->
+        <form  name=\"subscribeform\" id=\"subscribeform\" id=\"alert\">
+          <input type=\"text\" name=\"email\" placeholder=\"Entrez votre adresse email\" id=\"email\" required />
+          <button type=\"button\" onClick=\"Message1()\"  class=\"btn btn-white lp\">Envoyer</button>
+        </form>
+        <!-- subscribe message -->
+        <div id=\"mesaj\"></div>
+        <!-- subscribe message --> 
+      </div>
+      <!-- subscribe form --> 
+    </div>
+  </div>
+</section>
+<!--subscribe section --> 
+ <nav class=\"gtco-nav\" role=\"navigation\">
+            <div class=\"gtco-container\">
+
+                <div class=\"row\">
+                    <div class=\"col-sm-2 col-xs-12\">
+                        <div id=\"gtco-logo\">
+                            <a href=\"{{ path ('accueil')}}\"><img src=\"{{ asset ('images/paps.png') }}\" alt=\"Free HTML5 Website Template by GetTemplates.co\"></a>
+                        </div>
+                    </div>
+                    <div class=\"col-xs-10 text-right menu-1\">
+                   <ul>
+                            <li><a href=\"{{ path ('accueil')}}\">ACCUEIL</a></li>
+                            <li><a href=\"{{ path ('service')}}\">SERVICES</a></li>
+                            <li class=\"dropdown-item\"><a href=\"{{ path ('inscoursier')}}\">DEVENIR PAPSER</a></li>
+
+                            <li><a href=\"{{ path ('about')}}\">A PROPOS</a></li>
+                            <li><a href=\"{{ path ('contact')}}\">NOS CONTACT</a></li>
+
+                            <li>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <li><a href=\"https://monespace.paps.sn\" target=\"_blank\">ACCEDER A MON COMPTE</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+{% endblock %}
+{% block footer %}{% endblock %}
+{% block javascripts %}
+<script>
+
+\$('#carousel').on('slide.bs.carousel', function (e) {
+
+    var \$e = \$(e.relatedTarget);
+    var idx = \$e.index();
+    var itemsPerSlide = 4;
+    var totalItems = \$('.carousel-item').length;
+
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction==\"left\") {
+                \$('.carousel-item').eq(i).appendTo('.carousel-inner');
+            }
+            else {
+                \$('.carousel-item').eq(0).appendTo('.carousel-inner');
+            }
+        }
+    }
+});
+</script>
+    <script src=\"{{ asset('js/jquery.subscribe.js')}}\"></script>
+
+{{ parent ()}}
 {% endblock %}", "@PAPSLivraison/Front/accueil.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/accueil.html.twig");
     }
 }

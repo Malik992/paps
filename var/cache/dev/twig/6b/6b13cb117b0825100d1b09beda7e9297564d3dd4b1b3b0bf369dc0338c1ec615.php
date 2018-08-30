@@ -46,14 +46,16 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" role=\"banner\">
+        echo "<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/Papsweb1a.jpg"), "html", null, true);
+        echo "');background-size: 100% auto;background-repeat: no-repeat;\" role=\"banner\">
 \t\t\t<div class=\"gtco-container\">
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-12 col-md-offset-0 text-left\">
 \t\t\t\t\t\t<div class=\"display-t\">
 \t\t\t\t\t\t\t<div class=\"display-tc\">
 \t\t\t\t\t\t\t\t<div class=\"row\">
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-8\">
+\t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">A propos des nous</h1>
 \t\t\t\t\t\t\t\t\t\t<p>Notre équipe est composée principalement de jeunes personnes aussi dynamiques qu'ambitionnées dans leur travail.</p>
 \t\t\t\t\t\t\t\t\t</div>
@@ -236,13 +238,29 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t</div>
 \t\t</div>
 \t\t<!-- END .gtco-services -->
+\t\t  <div class=\"gtco-client\">
+\t\t\t\t<div class=\"gtco-container\">
+\t\t\t\t <div class=\"row row-pb-sm\">
+                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
+                        <h2>Notre application</h2>
+                    </div>
+                </div>
+\t\t\t\t\t<div class=\"row row-pb-sm\"  >
+\t\t\t\t\t\t\t<img src=\"";
+        // line 172
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/Papsweb1e-1.jpg"), "html", null, true);
+        echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
+\t\t\t\t\t\t
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t  </div>
 
 \t\t<div class=\"gtco-section gtco-products\">
             <div class=\"gtco-container\">
                 <div class=\"row row-pb-sm\">
                     <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
 \t\t\t\t\t<img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        // line 169
+        // line 182
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/1492678157-about-icons-04-svg.svg"), "html", null, true);
         echo "');background-size: 150px;background-repeat: no-repeat;\">
 
@@ -253,7 +271,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                 <div class=\"row row-pb-md\">
                     <div class=\"col-md-4 col-sm-4\">
                         <img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        // line 177
+        // line 190
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/1492678176-about-icons-01-svg.svg"), "html", null, true);
         echo "');background-size: 160px;background-repeat: no-repeat;\">
                         
@@ -263,7 +281,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                     </div>
                     <div class=\"col-md-4 col-sm-4\">
                         <img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        // line 184
+        // line 197
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/1492678197-about-icons-03-svg.svg"), "html", null, true);
         echo "');background-size: 160px;background-repeat: no-repeat;\">
                            
@@ -274,7 +292,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                     </div>
                     <div class=\"col-md-4 col-sm-4\">
                         <img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        // line 192
+        // line 205
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/1492678213-about-icons-02-svg.svg"), "html", null, true);
         echo "');background-size: 160px;background-repeat: no-repeat;\">
                           
@@ -296,31 +314,31 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                         <div class=\"row\">
 \t\t\t\t\t\t\t<div class=\"col-md-2 col-md-offset-1 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 211
+        // line 224
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/index.jpeg"), "html", null, true);
         echo "\" id=\"parteners\"  alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 214
+        // line 227
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/dhl-paris-14961564679.jpg"), "html", null, true);
         echo "\" id=\"parteners\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 217
+        // line 230
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/index.png"), "html", null, true);
         echo "\" id=\"parteners\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 220
+        // line 233
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/total-tunisie.png"), "html", null, true);
         echo "\" id=\"parteners\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 223
+        // line 236
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/tn-14501942-logoeiffage.jpg"), "html", null, true);
         echo "\"  id=\"parteners\"  alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
@@ -349,7 +367,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 
     public function getDebugInfo()
     {
-        return array (  324 => 223,  318 => 220,  312 => 217,  306 => 214,  300 => 211,  278 => 192,  267 => 184,  257 => 177,  246 => 169,  224 => 150,  212 => 141,  195 => 127,  181 => 116,  166 => 104,  152 => 93,  129 => 73,  114 => 61,  100 => 50,  86 => 39,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  342 => 236,  336 => 233,  330 => 230,  324 => 227,  318 => 224,  296 => 205,  285 => 197,  275 => 190,  264 => 182,  251 => 172,  226 => 150,  214 => 141,  197 => 127,  183 => 116,  168 => 104,  154 => 93,  131 => 73,  116 => 61,  102 => 50,  88 => 39,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -365,14 +383,14 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         return new Twig_Source("{% extends \"::base.html.twig\" %}
 
 {% block body %}
-<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" role=\"banner\">
+<header id=\"gtco-header\" class=\"gtco-cover gtco-cover-xs gtco-inner\" style=\"background-image: url('{{ asset ('images/Papsweb1a.jpg')}}');background-size: 100% auto;background-repeat: no-repeat;\" role=\"banner\">
 \t\t\t<div class=\"gtco-container\">
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-12 col-md-offset-0 text-left\">
 \t\t\t\t\t\t<div class=\"display-t\">
 \t\t\t\t\t\t\t<div class=\"display-tc\">
 \t\t\t\t\t\t\t\t<div class=\"row\">
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-8\">
+\t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">A propos des nous</h1>
 \t\t\t\t\t\t\t\t\t\t<p>Notre équipe est composée principalement de jeunes personnes aussi dynamiques qu'ambitionnées dans leur travail.</p>
 \t\t\t\t\t\t\t\t\t</div>
@@ -525,6 +543,19 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t</div>
 \t\t</div>
 \t\t<!-- END .gtco-services -->
+\t\t  <div class=\"gtco-client\">
+\t\t\t\t<div class=\"gtco-container\">
+\t\t\t\t <div class=\"row row-pb-sm\">
+                    <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
+                        <h2>Notre application</h2>
+                    </div>
+                </div>
+\t\t\t\t\t<div class=\"row row-pb-sm\"  >
+\t\t\t\t\t\t\t<img src=\"{{ asset ('images/Papsweb1e-1.jpg')}}\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
+\t\t\t\t\t\t
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t  </div>
 
 \t\t<div class=\"gtco-section gtco-products\">
             <div class=\"gtco-container\">

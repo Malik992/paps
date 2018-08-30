@@ -12,8 +12,22 @@
 * 	Template Style 
 *
 * ======================================================= */
+.gtco-footer-link ul{
+color :white;
+}
+#logo1, #logo2, #logo3 {
+    padding-top: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.15);
+    height: 250px;
+    width : 600px;
+    padding: 15px 1em;
+}
+#log1, #log2, #log3 {
+    margin-left: 50px;
+}
 .nav-text{
-    margin-left: 50%;
+    margin-left: 48%;
 }
 #express{
     color: #e1a87b;
@@ -116,14 +130,13 @@
 /* =================== */
 
 body {
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
     background: #fff;
     color: rgb(97, 96, 96);
 }
-
 #page {
     position: relative;
     overflow-x: hidden;
@@ -180,7 +193,7 @@ h5,
 h6,
 figure {
     color: #000;
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -416,6 +429,7 @@ figure {
         display: block;
         width: 100%;
     }
+   
 }
 
 #gtco-header,
@@ -491,7 +505,7 @@ figure {
     .gtco-cover .display-tc {
         height: 600px;
         height: inherit !important;
-        padding: 3em 0;
+        padding: 1em 0;
     }
 }
 
@@ -1086,7 +1100,8 @@ form label {
 }
 
 #gtco-header .copy {
-    margin-top: 0em;
+    margin-top: -24em;
+    margin-left: 37%;
 }
 
 #gtco-header .btn {
@@ -1492,7 +1507,7 @@ form label {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 13px;
     font-weight: 700 !important;
     -webkit-border-radius: 0%;
@@ -2306,6 +2321,3 @@ form label {
     background: none;
     background: #4d4d4d;
 }
-
-
-/*# sourceMappingURL=style.css.map */
