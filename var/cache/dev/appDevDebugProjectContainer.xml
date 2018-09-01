@@ -125,10 +125,10 @@
     <parameter key="container.autowiring.strict_mode">true</parameter>
     <parameter key="container.dumper.inline_class_loader">true</parameter>
     <parameter key="database_host">127.0.0.1</parameter>
-    <parameter key="database_port">null</parameter>
+    <parameter key="database_port">3306</parameter>
     <parameter key="database_name">null</parameter>
     <parameter key="database_user">root</parameter>
-    <parameter key="database_password">null</parameter>
+    <parameter key="database_password">malik92</parameter>
     <parameter key="mailer_transport">smtp</parameter>
     <parameter key="mailer_host">127.0.0.1</parameter>
     <parameter key="mailer_user">null</parameter>
@@ -2969,6 +2969,10 @@
         <argument>!Security</argument>
       </call>
       <call method="addPath">
+        <argument>/var/www/html/papsprojet/app/Resources/TwigBundle/views</argument>
+        <argument>Twig</argument>
+      </call>
+      <call method="addPath">
         <argument>/var/www/html/papsprojet/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
@@ -3146,6 +3150,10 @@
       <call method="addPath">
         <argument>/var/www/html/papsprojet/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>!Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>/var/www/html/papsprojet/app/Resources/TwigBundle/views</argument>
+        <argument>Twig</argument>
       </call>
       <call method="addPath">
         <argument>/var/www/html/papsprojet/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
@@ -3507,10 +3515,10 @@
       <argument type="collection">
         <argument key="driver">pdo_mysql</argument>
         <argument key="host">127.0.0.1</argument>
-        <argument key="port">null</argument>
+        <argument key="port">3306</argument>
         <argument key="dbname">null</argument>
         <argument key="user">root</argument>
-        <argument key="password">null</argument>
+        <argument key="password">malik92</argument>
         <argument key="charset">UTF8</argument>
         <argument key="driverOptions" type="collection"/>
         <argument key="defaultTableOptions" type="collection"/>

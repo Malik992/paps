@@ -1,6 +1,6 @@
 <?php
 
-/* @PAPSLivraison/Front/contact.html.twig */
+/* PAPSLivraisonBundle:Front:contact.html.twig */
 class __TwigTemplate_e300a28fdcbb02e72c08459d663530e40069dc58b409840feb0b8983ba3634dc extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_e300a28fdcbb02e72c08459d663530e40069dc58b409840feb0b8983ba3
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("::base.html.twig", "@PAPSLivraison/Front/contact.html.twig", 1);
+        $this->parent = $this->loadTemplate("::base.html.twig", "PAPSLivraisonBundle:Front:contact.html.twig", 1);
         $this->blocks = array(
             'stylesheets' => array($this, 'block_stylesheets'),
             'body' => array($this, 'block_body'),
@@ -23,10 +23,10 @@ class __TwigTemplate_e300a28fdcbb02e72c08459d663530e40069dc58b409840feb0b8983ba3
     protected function doDisplay(array $context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@PAPSLivraison/Front/contact.html.twig"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PAPSLivraisonBundle:Front:contact.html.twig"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@PAPSLivraison/Front/contact.html.twig"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PAPSLivraisonBundle:Front:contact.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
@@ -133,7 +133,7 @@ function reload_page() {
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
 \t\t\t\t\t\t<h2>Se faire contacter</h2>
-\t\t\t\t\t\t<p>Nous apprécions énormément les questions sur nos différents offres mais aussi juste pour dire bonjour. Donc n'hésitez pas !</p>
+\t\t\t\t\t\t<p> </p>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
@@ -168,15 +168,15 @@ function reload_page() {
 \t\t\t\t\t\t\t<ul id=\"labb\" >
 \t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-map-marker fa-lg\" aria-hidden=\"true\"></i> &nbsp;&nbsp;&nbsp; Imm. Transfret Rond point EMGxFront de terre.</li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\"><a href=\"\">
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98</a></li>
+\t\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98 <br> / +221-78-120-30-20</li>
 \t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;www.hello@paps.sn</a></li>
+\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;www.hello@paps.sn</li>
 \t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-globe fa-lg\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;Hello@paps-app.com</a></li>
+\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;Hello@paps-app.com</li>
 \t\t\t\t\t\t\t</ul>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"gtco-contact-info\">
@@ -201,7 +201,7 @@ function reload_page() {
 
     public function getTemplateName()
     {
-        return "@PAPSLivraison/Front/contact.html.twig";
+        return "PAPSLivraisonBundle:Front:contact.html.twig";
     }
 
     public function isTraitable()
@@ -294,7 +294,7 @@ function reload_page() {
 \t\t\t\t<div class=\"row\">
 \t\t\t\t\t<div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
 \t\t\t\t\t\t<h2>Se faire contacter</h2>
-\t\t\t\t\t\t<p>Nous apprécions énormément les questions sur nos différents offres mais aussi juste pour dire bonjour. Donc n'hésitez pas !</p>
+\t\t\t\t\t\t<p> </p>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"row\">
@@ -329,15 +329,15 @@ function reload_page() {
 \t\t\t\t\t\t\t<ul id=\"labb\" >
 \t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-map-marker fa-lg\" aria-hidden=\"true\"></i> &nbsp;&nbsp;&nbsp; Imm. Transfret Rond point EMGxFront de terre.</li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\"><a href=\"\">
+\t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98</a></li>
+\t\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp; +221-33-825-85-56 / +221-77-675-05-98 <br> / +221-78-120-30-20</li>
 \t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;www.hello@paps.sn</a></li>
+\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;www.hello@paps.sn</li>
 \t\t\t\t\t\t\t\t\t\t\t\t\t<li id=\"lab\">
 \t\t\t\t\t\t\t\t\t<i class=\"fa fa-globe fa-lg\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t<a href=\"\">&nbsp;&nbsp;&nbsp;Hello@paps-app.com</a></li>
+\t\t\t\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;Hello@paps-app.com</li>
 \t\t\t\t\t\t\t</ul>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"gtco-contact-info\">
@@ -348,6 +348,6 @@ function reload_page() {
 \t\t\t</div>
 \t\t</div>
 
-{% endblock %}", "@PAPSLivraison/Front/contact.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/contact.html.twig");
+{% endblock %}", "PAPSLivraisonBundle:Front:contact.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/contact.html.twig");
     }
 }

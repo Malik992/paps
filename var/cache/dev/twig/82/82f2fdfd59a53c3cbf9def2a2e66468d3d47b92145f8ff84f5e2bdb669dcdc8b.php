@@ -55,15 +55,15 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         ";
         // line 18
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 39
+        // line 40
         echo " <body>
  ";
-        // line 40
+        // line 41
         $this->displayBlock('page', $context, $blocks);
-        // line 145
+        // line 162
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 162
+        // line 188
         echo "    </body>
 </html>
 ";
@@ -103,7 +103,8 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 19
-        echo "        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
+        echo "        <meta name=\"google-site-verification\" content=\"NBd0U4EZXC8HVAhE4EZ3Q8B-rSX2t0KfhWNQAqjNB60\" />
+        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
       <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\">
 <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\" integrity=\"sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T\" crossorigin=\"anonymous\"></script>
 <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
@@ -111,33 +112,33 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
      <link href=\"https://fonts.googleapis.com/css?family=Raleway:100,300,400,700\" rel=\"stylesheet\">
     <!-- Animate.css -->
     <link rel=\"stylesheet\" href=\"";
-        // line 26
+        // line 27
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/animate.css"), "html", null, true);
         echo "\">
     <!-- Bootstrap  -->
     <link rel=\"stylesheet\" href=\"";
-        // line 28
+        // line 29
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/bootstrap0.css"), "html", null, true);
         echo "\">
 
     <!-- Magnific Popup -->
     <link rel=\"stylesheet\" href=\"";
-        // line 31
+        // line 32
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/magnific-popup.css"), "html", null, true);
         echo "\">
 
     <!-- Owl Carousel  -->
     <link rel=\"stylesheet\" href=\"";
-        // line 34
+        // line 35
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/owl.carousel.min.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
-        // line 35
+        // line 36
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/owl.theme.default.min.css"), "html", null, true);
         echo "\">
     <!-- Theme style  -->
     <link rel=\"stylesheet\" href=\"";
-        // line 37
+        // line 38
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/style.css"), "html", null, true);
         echo "\">
       ";
@@ -149,7 +150,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
 
     }
 
-    // line 40
+    // line 41
     public function block_page($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -158,21 +159,37 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "page"));
 
-        // line 41
+        // line 42
         echo "            <div class=\"gtco-loader\"></div>
 
             <div id=\"page\">
                 ";
-        // line 44
+        // line 45
         $this->displayBlock('header', $context, $blocks);
-        // line 72
+        // line 73
         echo "                ";
         $this->displayBlock('body', $context, $blocks);
-        // line 74
+        // line 75
         echo "                ";
         $this->displayBlock('footer', $context, $blocks);
-        // line 138
-        echo "
+        // line 139
+        echo "                <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-99831555-1\"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-99831555-1');
+</script>
+<!-- Freshchat Head -->
+<script src=\"https://wchat.freshchat.com/js/widget.js\"></script>
+<!-- Freshchat Body -->
+<script>
+  window.fcWidget.init({
+    token: \"15846e4e-7ebe-428c-ad5a-e51feb4ce2e6\",
+    host: \"https://wchat.freshchat.com\"
+  });
+</script>
+
             </div>
 
             <div class=\"gototop js-top\">
@@ -187,7 +204,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
 
     }
 
-    // line 44
+    // line 45
     public function block_header($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -196,7 +213,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
 
-        // line 45
+        // line 46
         echo "                <nav class=\"gtco-nav\" role=\"navigation\">
             <div class=\"gtco-container\">
 
@@ -204,8 +221,8 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                     <div class=\"col-sm-2 col-xs-12\">
                         <div id=\"gtco-logo\">
                             <a href=\"";
-        // line 51
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("accueil");
+        // line 52
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
         echo "\"><img src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/paps.png"), "html", null, true);
         echo "\" alt=\"Free HTML5 Website Template by GetTemplates.co\"></a>
@@ -214,26 +231,26 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                     <div class=\"col-xs-10 text-right menu-1\">
                    <ul>
                             <li><a href=\"";
-        // line 56
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("accueil");
+        // line 57
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
         echo "\">ACCUEIL</a></li>
                             <li><a href=\"";
-        // line 57
+        // line 58
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("service");
         echo "\">SERVICES</a></li>
                             <li class=\"dropdown-item\"><a href=\"";
-        // line 58
+        // line 59
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("inscoursier");
-        echo "\">DEVENIR PAPSER</a></li>
+        echo "\">DEVENIR PAPSEUR</a></li>
 
                             <li><a href=\"";
-        // line 60
+        // line 61
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("about");
         echo "\">A PROPOS</a></li>
                             <li><a href=\"";
-        // line 61
+        // line 62
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("contact");
-        echo "\">NOS CONTACT</a></li>
+        echo "\">NOS CONTACTS</a></li>
 
                             <li>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                             <li><a href=\"https://monespace.paps.sn\" target=\"_blank\">ACCEDER A MON COMPTE</a></li>
@@ -252,7 +269,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
 
     }
 
-    // line 72
+    // line 73
     public function block_body($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -261,7 +278,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 73
+        // line 74
         echo "                ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -271,7 +288,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
 
     }
 
-    // line 74
+    // line 75
     public function block_footer($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -280,14 +297,14 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
 
-        // line 75
+        // line 76
         echo "                <footer id=\"gtco-footer\" class=\"gtco-section\" role=\"contentinfo\">
             <div class=\"gtco-container\">
                 <div class=\"row row-pb-md\">
                     <div class=\"col-md-8 col-md-offset-2 gtco-cta text-center\">
                         <h3>Parlons business</h3>
                         <p><a href=\"";
-        // line 80
+        // line 81
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("contact");
         echo "\" class=\"btn btn-white btn-outline\">Nous contactez</a></p>
                     </div>
@@ -304,7 +321,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                             <div class=\"col-md-6\">
                                 <ul class=\"gtco-list-link\">Solutions
                                     <li><a href=\"";
-        // line 94
+        // line 95
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("service");
         echo "\">Services</a></li>
                                 
@@ -314,7 +331,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                             <div class=\"col-md-6\">
                                 <ul class=\"gtco-list-link\">Coursiers
                                     <li><a href=\"";
-        // line 101
+        // line 102
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("inscoursier");
         echo "\">Devenir coursier</a></li>
 
@@ -327,7 +344,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                             <div class=\"col-md-6\">
                                 <ul class=\"gtco-list-link\">A propos
                                     <li><a href=\"";
-        // line 111
+        // line 112
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("about");
         echo "\">Paps</a></li>
                                 </ul>
@@ -335,7 +352,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                              <div class=\"col-md-6\">
                                 <ul class=\"gtco-list-link\">Paps Appli
                                     <li><a href=\"https://play.google.com/store/apps/details?id=com.customer.paps\"><img src=\"";
-        // line 116
+        // line 117
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/google-play-badge_large.png"), "html", null, true);
         echo "\" width=\"150px\" alt=\" Téléchargez Paps sans plus tarder\" ></a></li>
 
@@ -367,7 +384,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
 
     }
 
-    // line 145
+    // line 162
     public function block_javascripts($context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
@@ -376,46 +393,55 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 146
+        // line 163
         echo "          <!-- jQuery -->
     <script src=\"";
-        // line 147
+        // line 164
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/jquery.min.js"), "html", null, true);
         echo "\"></script>
     <!-- jQuery Easing -->
     <script src=\"";
-        // line 149
+        // line 166
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/jquery.easing.1.3.js"), "html", null, true);
         echo "\"></script>
     <!-- Bootstrap -->
     <script src=\"";
-        // line 151
+        // line 168
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
     <!-- Waypoints -->
     <script src=\"";
-        // line 153
+        // line 170
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/jquery.waypoints.min.js"), "html", null, true);
         echo "\"></script>
     <!-- Carousel -->
     <script src=\"";
-        // line 155
+        // line 172
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/owl.carousel.min.js"), "html", null, true);
         echo "\"></script>
     <!-- Magnific Popup -->
     <script src=\"";
-        // line 157
+        // line 174
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/jquery.magnific-popup.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 158
+        // line 175
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/magnific-popup-options.js"), "html", null, true);
         echo "\"></script>
     <!-- Main -->
     <script src=\"";
-        // line 160
+        // line 177
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js0/main.js"), "html", null, true);
         echo "\"></script>
+
+    <!-- google analytics -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-99831555-1', 'auto');
+  ga('send', 'pageview');
+ </script>
         ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -437,7 +463,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
 
     public function getDebugInfo()
     {
-        return array (  417 => 160,  412 => 158,  408 => 157,  403 => 155,  398 => 153,  393 => 151,  388 => 149,  383 => 147,  380 => 146,  371 => 145,  339 => 116,  331 => 111,  318 => 101,  308 => 94,  291 => 80,  284 => 75,  275 => 74,  265 => 73,  256 => 72,  235 => 61,  231 => 60,  226 => 58,  222 => 57,  218 => 56,  208 => 51,  200 => 45,  191 => 44,  175 => 138,  172 => 74,  169 => 72,  167 => 44,  162 => 41,  153 => 40,  141 => 37,  136 => 35,  132 => 34,  126 => 31,  120 => 28,  115 => 26,  106 => 19,  97 => 18,  79 => 17,  67 => 162,  64 => 145,  62 => 40,  59 => 39,  57 => 18,  53 => 17,  49 => 16,  32 => 1,);
+        return array (  434 => 177,  429 => 175,  425 => 174,  420 => 172,  415 => 170,  410 => 168,  405 => 166,  400 => 164,  397 => 163,  388 => 162,  356 => 117,  348 => 112,  335 => 102,  325 => 95,  308 => 81,  301 => 76,  292 => 75,  282 => 74,  273 => 73,  252 => 62,  248 => 61,  243 => 59,  239 => 58,  235 => 57,  225 => 52,  217 => 46,  208 => 45,  176 => 139,  173 => 75,  170 => 73,  168 => 45,  163 => 42,  154 => 41,  142 => 38,  137 => 36,  133 => 35,  127 => 32,  121 => 29,  116 => 27,  106 => 19,  97 => 18,  79 => 17,  67 => 188,  64 => 162,  62 => 41,  59 => 40,  57 => 18,  53 => 17,  49 => 16,  32 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -468,6 +494,7 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
       <link rel=\"shortcut icon\" href=\"{{ asset ('images/paps.png') }}\">
         <title>{% block title %}Paps{% endblock %}</title>
         {% block stylesheets %}
+        <meta name=\"google-site-verification\" content=\"NBd0U4EZXC8HVAhE4EZ3Q8B-rSX2t0KfhWNQAqjNB60\" />
         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
       <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\">
 <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\" integrity=\"sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T\" crossorigin=\"anonymous\"></script>
@@ -500,17 +527,17 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
                 <div class=\"row\">
                     <div class=\"col-sm-2 col-xs-12\">
                         <div id=\"gtco-logo\">
-                            <a href=\"{{ path ('accueil')}}\"><img src=\"{{ asset ('images/paps.png') }}\" alt=\"Free HTML5 Website Template by GetTemplates.co\"></a>
+                            <a href=\"{{ path ('index')}}\"><img src=\"{{ asset ('images/paps.png') }}\" alt=\"Free HTML5 Website Template by GetTemplates.co\"></a>
                         </div>
                     </div>
                     <div class=\"col-xs-10 text-right menu-1\">
                    <ul>
-                            <li><a href=\"{{ path ('accueil')}}\">ACCUEIL</a></li>
+                            <li><a href=\"{{ path ('index')}}\">ACCUEIL</a></li>
                             <li><a href=\"{{ path ('service')}}\">SERVICES</a></li>
-                            <li class=\"dropdown-item\"><a href=\"{{ path ('inscoursier')}}\">DEVENIR PAPSER</a></li>
+                            <li class=\"dropdown-item\"><a href=\"{{ path ('inscoursier')}}\">DEVENIR PAPSEUR</a></li>
 
                             <li><a href=\"{{ path ('about')}}\">A PROPOS</a></li>
-                            <li><a href=\"{{ path ('contact')}}\">NOS CONTACT</a></li>
+                            <li><a href=\"{{ path ('contact')}}\">NOS CONTACTS</a></li>
 
                             <li>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                             <li><a href=\"https://monespace.paps.sn\" target=\"_blank\">ACCEDER A MON COMPTE</a></li>
@@ -587,6 +614,22 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
             </div>
         </footer>
                 {% endblock %}
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-99831555-1\"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-99831555-1');
+</script>
+<!-- Freshchat Head -->
+<script src=\"https://wchat.freshchat.com/js/widget.js\"></script>
+<!-- Freshchat Body -->
+<script>
+  window.fcWidget.init({
+    token: \"15846e4e-7ebe-428c-ad5a-e51feb4ce2e6\",
+    host: \"https://wchat.freshchat.com\"
+  });
+</script>
 
             </div>
 
@@ -610,6 +653,15 @@ class __TwigTemplate_1b1d4a8c855e8715b6d3dbf79ed1f87f5aa957181b02d81de932740ae0f
     <script src=\"{{ asset('js0/magnific-popup-options.js')}}\"></script>
     <!-- Main -->
     <script src=\"{{ asset('js0/main.js')}}\"></script>
+
+    <!-- google analytics -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-99831555-1', 'auto');
+  ga('send', 'pageview');
+ </script>
         {% endblock %}
     </body>
 </html>

@@ -12,11 +12,11 @@ use Symfony\Component\HttpFoundation\Response;
 class FrontController extends Controller
 {
      /**
-     * @Route("/accueil")
+     * @Route("/index")
      */
-    public function accueilAction()
+    public function indexAction()
     {
-        return $this->render('@PAPSLivraison/Front/accueil.html.twig', array(
+        return $this->render('@PAPSLivraison/Front/index.html.twig', array(
             // ...
         ));
     }

@@ -1,6 +1,6 @@
 <?php
 
-/* @PAPSLivraison/Front/service.html.twig */
+/* PAPSLivraisonBundle:Front:service.html.twig */
 class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74b765e extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("::base.html.twig", "@PAPSLivraison/Front/service.html.twig", 1);
+        $this->parent = $this->loadTemplate("::base.html.twig", "PAPSLivraisonBundle:Front:service.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
         );
@@ -22,10 +22,10 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
     protected function doDisplay(array $context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@PAPSLivraison/Front/service.html.twig"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PAPSLivraisonBundle:Front:service.html.twig"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@PAPSLivraison/Front/service.html.twig"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PAPSLivraisonBundle:Front:service.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
@@ -57,7 +57,7 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
 \t\t\t\t\t\t\t\t<div class=\"row\">
 \t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">Nos services</h1>
-\t\t\t\t\t\t\t\t\t\t<p>Paps vous propose des livraison colis , express et document.</p>
+\t\t\t\t\t\t\t\t\t\t<p>Paps vous propose des livraisons de colis, de documents et express.</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
@@ -88,9 +88,16 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
 \t\t\t\t\t\t<div class=\"col-md-12 col-sm-12 service-wrap\">
 \t\t\t\t\t\t<div class=\"service\">
 \t\t\t\t\t\t\t<h4 id=\"express\"> Express</h4>
-\t\t\t\t\t\t\t<p>Vous avez des colis urgents à expédier sur Dakar ou les autres régions et vous souhaiter les faire livrer le plus rapidement possible et de manière exigeante? <br> Renseignez directement vos informations à travers le site ou l'application mobile  et Paps prend en charge votre course. Vous serez notifié selon votre choix par téléphone ou email dès lors que votre course a démarré.<br>
+\t\t\t\t\t\t\t<p>Vous avez des colis urgents à expédier sur Dakar ou les autres 
+\t\t\t\t\t\t\trégions et vous souhaiter les faire livrer le plus rapidement possible 
+\t\t\t\t\t\t\tet de manière exigeante? <br> Renseignez directement vos informations à 
+\t\t\t\t\t\t\ttravers le site ou l'application mobile  et Paps prend en charge votre 
+\t\t\t\t\t\t\tcourse. Vous serez notifié selon votre choix par téléphone ou email dès
+\t\t\t\t\t\t\t lors que votre course a démarré.<br>
 
-\t\t\t\t\t\tMais encore mieux: vous avez besoin qu'on vous achète un bien à acheter rapidement et liver chez vous ou à votre bureau? Là encore, Paps les prend en charge.</p>
+\t\t\t\t\t\tMais encore mieux: vous avez besoin de faire un achat
+\t\t\t\t\t\t rapide ? Là encore, Paps les prend 
+\t\t\t\t\t\t en charge et vous les livre chez vous ou à votre bureau.</p>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -100,7 +107,7 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
                 <div class=\"row row-pb-md bgrd\" >
 \t\t\t\t\t<div class=\"col-md-4 col-sm-4\">
 \t\t\t\t\t\t<div class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('";
-        // line 52
+        // line 59
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/document.png"), "html", null, true);
         echo "');background-size: 150px;background-repeat: no-repeat;\">
 
@@ -111,11 +118,15 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
 \t\t\t\t\t\t<div class=\"service\">
 \t\t\t\t\t\t\t<h4 id=\"colis\"> Document et Colis</h4>
 
-\t\t\t\t\t\t\t<p>Vous êtes une entreprise et vous disposez d'une quantité importante de courriers ou de colis à gérer? Paps met à votre disposition une partie de sa flotte de coursiers pour vos besoins de logistique.<br>
+\t\t\t\t\t\t\t<p>Vous êtes une entreprise et vous disposez d'une quantité importante de 
+\t\t\t\t\t\t\tcourriers ou de colis à expédier? Paps met à votre disposition une partie de sa
+\t\t\t\t\t\t\t flotte de coursiers pour vos besoins de logistique.<br>
 
-\t\t\t\t\t\t\tNous nous chargeons également de répondre à tous vos besoins de préparations de documents ou colis (emballage et stockage) avant l'envoi. Avec Paps, bénéficiez d'un service rigoureux qui fera tout le nécessaire pour prendre en charge vos envois de courriers récurrents à Dakar et dans les autres régions.<br>
-
-\t\t\t\t\t\tContactez-nous directement et nous vous recontacterons dans les moindre délais.</p>
+\t\t\t\t\t\t\tNous nous chargeons également de répondre à tous vos besoins de préparations
+\t\t\t\t\t\t\t de documents ou colis (emballage et stockage) avant l'envoi. Avec Paps,
+\t\t\t\t\t\t\t  bénéficiez d'un service rigoureux qui fera tout le nécessaire pour prendre 
+\t\t\t\t\t\t\t  en charge vos envois de courriers récurrents à Dakar et dans les autres
+\t\t\t\t\t\t\t   régions.</p>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -127,7 +138,7 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
 \t\t\t\t<div class=\"gtco-container\">
 \t\t\t\t\t<div class=\"row row-pb-sm\">
 \t\t\t\t\t\t\t<img src=\"";
-        // line 76
+        // line 87
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/Papsweb7.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t
@@ -138,38 +149,38 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
                     <div class=\"gtco-container\">
 \t\t\t\t\t<div class=\"row row-pb-sm\">
                     <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Nos offres aux entreprises et PME</h2>
+                        <h2>Nos offres aux entreprises</h2>
                         <p>Plus de 50 entreprises nous font confiance à travers le sénégal</p>
                     </div>
                 </div>
                         <div class=\"row\">
 \t\t\t\t\t\t\t<div class=\"col-md-2 col-md-offset-1 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 91
+        // line 102
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/index.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 94
+        // line 105
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/dhl-paris.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 97
+        // line 108
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/boafric.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 100
+        // line 111
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/diamonbankk.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 103
+        // line 114
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/auchann.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
@@ -181,31 +192,31 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
                         <div class=\"row\">
 \t\t\t\t\t\t\t<div class=\"col-md-2 col-md-offset-1 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 112
+        // line 123
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/ouicarry.png"), "html", null, true);
         echo "\" alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 115
+        // line 126
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/baloon.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 118
+        // line 129
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/brvm.jpg"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div  class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 121
+        // line 132
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/abco.jpg"), "html", null, true);
         echo "\" width=\"500\"  alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div   class=\"col-md-2 text-center client col-sm-6 col-xs-6 col-xs-offset-0 col-sm-offset-0\">
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 124
+        // line 135
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/tex.png"), "html", null, true);
         echo "\"   alt=\"Free Website Template by GetTemplates.co\" class=\"img-responsiv\">
 \t\t\t\t\t\t\t</div>
@@ -217,7 +228,7 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
 
                 <div class=\"row row-pb-sm\">
                     <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Il aime ce que nous faisons</h2>
+                        <h2>Ils aiment ce que nous faisons</h2>
                         <p>Paps offre des solutions pour les clients.</p>
                     </div>
                 </div>
@@ -226,13 +237,16 @@ class __TwigTemplate_6a0ed012d60eeee95e815ea5668ac405d3e8451261e39c5188bf4cd2d74
                     <div class=\"col-md-6 col-sm-6 animate-box\">
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"";
-        // line 142
+        // line 153
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/po.png"), "html", null, true);
         echo "\"  alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
-                                <p>&ldquo;« Les services de Paps nous ont permis de fluidifier et d'accélérer la remontée au siège des documents administratifs de nos points de vente disséminés dans Dakar et en région. Les équipes de Paps sont dans une volonté permanente de progrès et d'efficacité.» &rdquo; <cite class=\"author\">&mdash;Robin Gauter
-Directeur Administratif et financier
-Auchan Retail Sénégal </cite></p>
+                                <p>&ldquo;« Les services de Paps nous ont permis de fluidifier et d'accélérer la 
+\t\t\t\t\t\t\t\tremontée au siège des documents administratifs de nos points de vente disséminés
+\t\t\t\t\t\t\t\t dans Dakar et en région. Les équipes de Paps sont dans une volonté permanente de 
+\t\t\t\t\t\t\t\t progrès et d'efficacité.» &rdquo; <cite class=\"author\">&mdash;Robin Gauter
+\t\t\t\t\t\t\t\tDirecteur Administratif et financier
+\t\t\t\t\t\t\t\tAuchan Retail Sénégal </cite></p>
                             </blockquote>
                         </div>
                     </div>
@@ -240,14 +254,17 @@ Auchan Retail Sénégal </cite></p>
                     <div class=\"col-md-6 col-sm-6 animate-box\">
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"";
-        // line 153
+        // line 167
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/po1.png"), "html", null, true);
         echo "\" alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
-                                <p>&ldquo;« Deux points, équipe efficace et suivi vraiment très bien en temps réel.  Nous sommes informé de ce qui a été fait, de ce qui est à faire, plus la peine d’appeler à chaque instant le prestataire pour avoir du feedback et planifier nos relances » &rdquo;
+                                <p>&ldquo;« Deux points: équipe efficace et suivi vraiment très bien en temps réel. 
+\t\t\t\t\t\t\t\t Nous sommes informé de ce qui a été fait, de ce qui est à faire, plus la peine 
+\t\t\t\t\t\t\t\t d’appeler à chaque instant le prestataire pour avoir du feedback et planifier nos
+\t\t\t\t\t\t\t\t  relances » &rdquo;
                                     <cite class=\"author\">&mdash; Géraldine Johnson
-Assistante de direction
-Nexus</cite></p>
+\t\t\t\t\t\t\t\t\t\tAssistante de direction
+\t\t\t\t\t\t\t\t\t\tNexus</cite></p>
                             </blockquote>
                         </div>
                     </div>
@@ -258,16 +275,18 @@ Nexus</cite></p>
                     <div class=\"col-md-6 col-sm-6 animate-box\">
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"";
-        // line 168
+        // line 185
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/po2.png"), "html", null, true);
         echo "\" alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
                                 <p>&ldquo; 
-« Comparé à notre ancien prestataire Paps est nettement meilleure, au niveau de la rapidité, la manière dont son reçu nos décharges, et le suivi des expeditions je suis rassuré vraiment pour mes clients » &rdquo;
-                                    <cite class=\"author\">&mdash;Mohamed Sissoko
-Comptabilitè client / chargèe recouvrement
-Senac S. A.
-Eiffage</cite>
+\t\t\t\t\t\t\t« Comparé à notre ancien prestataire Paps est nettement meilleur, au niveau 
+\t\t\t\t\t\t\tde la rapidité, la manière dont sont reçues nos décharges, et le suivi des 
+\t\t\t\t\t\t\texpeditions.Je suis rassuré vraiment pour mes clients » &rdquo;
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<cite class=\"author\">&mdash;Mohamed Sissoko
+\t\t\t\t\t\t\tComptabilité client / chargée recouvrement
+\t\t\t\t\t\t\tSenac S. A.
+\t\t\t\t\t\t\tEiffage</cite>
                                 </p>
                             </blockquote>
                         </div>
@@ -276,13 +295,16 @@ Eiffage</cite>
                     <div class=\"col-md-6 col-sm-6 animate-box\">
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"";
-        // line 183
+        // line 202
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/po4.png"), "html", null, true);
         echo "\" alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
-                                <p>&ldquo;« Nous travaillons depuis quelques mois avec PAPS sur différents types de prestations, tous liés à la logistique du dernier km. C’est une startup innovante avec laquelle nous avons beaucoup de plaisir à travailler.»&rdquo; <cite class=\"author\">&mdash;M. Babacar Diagne
-Responsable Coord. Supply Chain
-Orange-Sonatel</cite></p>
+                                <p>&ldquo;« Nous travaillons depuis quelques mois avec Paps sur 
+\t\t\t\t\t\t\t\tdifférents types de prestations, tous liés à la logistique du 
+\t\t\t\t\t\t\t\tdernier Km. C’est une startup innovante avec laquelle nous avons 
+\t\t\t\t\t\t\t\tbeaucoup de plaisir à travailler.»&rdquo; <cite class=\"author\">&mdash;M. Babacar Diagne
+\t\t\t\t\t\t\t\tResponsable Coord. Supply Chain
+\t\t\t\t\t\t\t\tOrange-Sonatel</cite></p>
                             </blockquote>
                         </div>
                     </div>
@@ -301,7 +323,7 @@ Orange-Sonatel</cite></p>
 
     public function getTemplateName()
     {
-        return "@PAPSLivraison/Front/service.html.twig";
+        return "PAPSLivraisonBundle:Front:service.html.twig";
     }
 
     public function isTraitable()
@@ -311,7 +333,7 @@ Orange-Sonatel</cite></p>
 
     public function getDebugInfo()
     {
-        return array (  280 => 183,  262 => 168,  244 => 153,  230 => 142,  209 => 124,  203 => 121,  197 => 118,  191 => 115,  185 => 112,  173 => 103,  167 => 100,  161 => 97,  155 => 94,  149 => 91,  131 => 76,  104 => 52,  82 => 33,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  299 => 202,  279 => 185,  258 => 167,  241 => 153,  220 => 135,  214 => 132,  208 => 129,  202 => 126,  196 => 123,  184 => 114,  178 => 111,  172 => 108,  166 => 105,  160 => 102,  142 => 87,  111 => 59,  82 => 33,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -336,7 +358,7 @@ Orange-Sonatel</cite></p>
 \t\t\t\t\t\t\t\t<div class=\"row\">
 \t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">Nos services</h1>
-\t\t\t\t\t\t\t\t\t\t<p>Paps vous propose des livraison colis , express et document.</p>
+\t\t\t\t\t\t\t\t\t\t<p>Paps vous propose des livraisons de colis, de documents et express.</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
@@ -364,9 +386,16 @@ Orange-Sonatel</cite></p>
 \t\t\t\t\t\t<div class=\"col-md-12 col-sm-12 service-wrap\">
 \t\t\t\t\t\t<div class=\"service\">
 \t\t\t\t\t\t\t<h4 id=\"express\"> Express</h4>
-\t\t\t\t\t\t\t<p>Vous avez des colis urgents à expédier sur Dakar ou les autres régions et vous souhaiter les faire livrer le plus rapidement possible et de manière exigeante? <br> Renseignez directement vos informations à travers le site ou l'application mobile  et Paps prend en charge votre course. Vous serez notifié selon votre choix par téléphone ou email dès lors que votre course a démarré.<br>
+\t\t\t\t\t\t\t<p>Vous avez des colis urgents à expédier sur Dakar ou les autres 
+\t\t\t\t\t\t\trégions et vous souhaiter les faire livrer le plus rapidement possible 
+\t\t\t\t\t\t\tet de manière exigeante? <br> Renseignez directement vos informations à 
+\t\t\t\t\t\t\ttravers le site ou l'application mobile  et Paps prend en charge votre 
+\t\t\t\t\t\t\tcourse. Vous serez notifié selon votre choix par téléphone ou email dès
+\t\t\t\t\t\t\t lors que votre course a démarré.<br>
 
-\t\t\t\t\t\tMais encore mieux: vous avez besoin qu'on vous achète un bien à acheter rapidement et liver chez vous ou à votre bureau? Là encore, Paps les prend en charge.</p>
+\t\t\t\t\t\tMais encore mieux: vous avez besoin de faire un achat
+\t\t\t\t\t\t rapide ? Là encore, Paps les prend 
+\t\t\t\t\t\t en charge et vous les livre chez vous ou à votre bureau.</p>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -384,11 +413,15 @@ Orange-Sonatel</cite></p>
 \t\t\t\t\t\t<div class=\"service\">
 \t\t\t\t\t\t\t<h4 id=\"colis\"> Document et Colis</h4>
 
-\t\t\t\t\t\t\t<p>Vous êtes une entreprise et vous disposez d'une quantité importante de courriers ou de colis à gérer? Paps met à votre disposition une partie de sa flotte de coursiers pour vos besoins de logistique.<br>
+\t\t\t\t\t\t\t<p>Vous êtes une entreprise et vous disposez d'une quantité importante de 
+\t\t\t\t\t\t\tcourriers ou de colis à expédier? Paps met à votre disposition une partie de sa
+\t\t\t\t\t\t\t flotte de coursiers pour vos besoins de logistique.<br>
 
-\t\t\t\t\t\t\tNous nous chargeons également de répondre à tous vos besoins de préparations de documents ou colis (emballage et stockage) avant l'envoi. Avec Paps, bénéficiez d'un service rigoureux qui fera tout le nécessaire pour prendre en charge vos envois de courriers récurrents à Dakar et dans les autres régions.<br>
-
-\t\t\t\t\t\tContactez-nous directement et nous vous recontacterons dans les moindre délais.</p>
+\t\t\t\t\t\t\tNous nous chargeons également de répondre à tous vos besoins de préparations
+\t\t\t\t\t\t\t de documents ou colis (emballage et stockage) avant l'envoi. Avec Paps,
+\t\t\t\t\t\t\t  bénéficiez d'un service rigoureux qui fera tout le nécessaire pour prendre 
+\t\t\t\t\t\t\t  en charge vos envois de courriers récurrents à Dakar et dans les autres
+\t\t\t\t\t\t\t   régions.</p>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -408,7 +441,7 @@ Orange-Sonatel</cite></p>
                     <div class=\"gtco-container\">
 \t\t\t\t\t<div class=\"row row-pb-sm\">
                     <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Nos offres aux entreprises et PME</h2>
+                        <h2>Nos offres aux entreprises</h2>
                         <p>Plus de 50 entreprises nous font confiance à travers le sénégal</p>
                     </div>
                 </div>
@@ -457,7 +490,7 @@ Orange-Sonatel</cite></p>
 
                 <div class=\"row row-pb-sm\">
                     <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
-                        <h2>Il aime ce que nous faisons</h2>
+                        <h2>Ils aiment ce que nous faisons</h2>
                         <p>Paps offre des solutions pour les clients.</p>
                     </div>
                 </div>
@@ -467,9 +500,12 @@ Orange-Sonatel</cite></p>
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"{{ asset ('images/po.png')}}\"  alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
-                                <p>&ldquo;« Les services de Paps nous ont permis de fluidifier et d'accélérer la remontée au siège des documents administratifs de nos points de vente disséminés dans Dakar et en région. Les équipes de Paps sont dans une volonté permanente de progrès et d'efficacité.» &rdquo; <cite class=\"author\">&mdash;Robin Gauter
-Directeur Administratif et financier
-Auchan Retail Sénégal </cite></p>
+                                <p>&ldquo;« Les services de Paps nous ont permis de fluidifier et d'accélérer la 
+\t\t\t\t\t\t\t\tremontée au siège des documents administratifs de nos points de vente disséminés
+\t\t\t\t\t\t\t\t dans Dakar et en région. Les équipes de Paps sont dans une volonté permanente de 
+\t\t\t\t\t\t\t\t progrès et d'efficacité.» &rdquo; <cite class=\"author\">&mdash;Robin Gauter
+\t\t\t\t\t\t\t\tDirecteur Administratif et financier
+\t\t\t\t\t\t\t\tAuchan Retail Sénégal </cite></p>
                             </blockquote>
                         </div>
                     </div>
@@ -478,10 +514,13 @@ Auchan Retail Sénégal </cite></p>
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"{{ asset ('images/po1.png')}}\" alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
-                                <p>&ldquo;« Deux points, équipe efficace et suivi vraiment très bien en temps réel.  Nous sommes informé de ce qui a été fait, de ce qui est à faire, plus la peine d’appeler à chaque instant le prestataire pour avoir du feedback et planifier nos relances » &rdquo;
+                                <p>&ldquo;« Deux points: équipe efficace et suivi vraiment très bien en temps réel. 
+\t\t\t\t\t\t\t\t Nous sommes informé de ce qui a été fait, de ce qui est à faire, plus la peine 
+\t\t\t\t\t\t\t\t d’appeler à chaque instant le prestataire pour avoir du feedback et planifier nos
+\t\t\t\t\t\t\t\t  relances » &rdquo;
                                     <cite class=\"author\">&mdash; Géraldine Johnson
-Assistante de direction
-Nexus</cite></p>
+\t\t\t\t\t\t\t\t\t\tAssistante de direction
+\t\t\t\t\t\t\t\t\t\tNexus</cite></p>
                             </blockquote>
                         </div>
                     </div>
@@ -494,11 +533,13 @@ Nexus</cite></p>
                             <div><img src=\"{{ asset ('images/po2.png')}}\" alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
                                 <p>&ldquo; 
-« Comparé à notre ancien prestataire Paps est nettement meilleure, au niveau de la rapidité, la manière dont son reçu nos décharges, et le suivi des expeditions je suis rassuré vraiment pour mes clients » &rdquo;
-                                    <cite class=\"author\">&mdash;Mohamed Sissoko
-Comptabilitè client / chargèe recouvrement
-Senac S. A.
-Eiffage</cite>
+\t\t\t\t\t\t\t« Comparé à notre ancien prestataire Paps est nettement meilleur, au niveau 
+\t\t\t\t\t\t\tde la rapidité, la manière dont sont reçues nos décharges, et le suivi des 
+\t\t\t\t\t\t\texpeditions.Je suis rassuré vraiment pour mes clients » &rdquo;
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<cite class=\"author\">&mdash;Mohamed Sissoko
+\t\t\t\t\t\t\tComptabilité client / chargée recouvrement
+\t\t\t\t\t\t\tSenac S. A.
+\t\t\t\t\t\t\tEiffage</cite>
                                 </p>
                             </blockquote>
                         </div>
@@ -508,9 +549,12 @@ Eiffage</cite>
                         <div class=\"gtco-testimony gtco-left\">
                             <div><img src=\"{{ asset ('images/po4.png')}}\" alt=\"Free Website template by GetTemplates.co\"></div>
                             <blockquote>
-                                <p>&ldquo;« Nous travaillons depuis quelques mois avec PAPS sur différents types de prestations, tous liés à la logistique du dernier km. C’est une startup innovante avec laquelle nous avons beaucoup de plaisir à travailler.»&rdquo; <cite class=\"author\">&mdash;M. Babacar Diagne
-Responsable Coord. Supply Chain
-Orange-Sonatel</cite></p>
+                                <p>&ldquo;« Nous travaillons depuis quelques mois avec Paps sur 
+\t\t\t\t\t\t\t\tdifférents types de prestations, tous liés à la logistique du 
+\t\t\t\t\t\t\t\tdernier Km. C’est une startup innovante avec laquelle nous avons 
+\t\t\t\t\t\t\t\tbeaucoup de plaisir à travailler.»&rdquo; <cite class=\"author\">&mdash;M. Babacar Diagne
+\t\t\t\t\t\t\t\tResponsable Coord. Supply Chain
+\t\t\t\t\t\t\t\tOrange-Sonatel</cite></p>
                             </blockquote>
                         </div>
                     </div>
@@ -518,6 +562,6 @@ Orange-Sonatel</cite></p>
             </div>
         </div>
 
-{% endblock %}", "@PAPSLivraison/Front/service.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/service.html.twig");
+{% endblock %}", "PAPSLivraisonBundle:Front:service.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/service.html.twig");
     }
 }

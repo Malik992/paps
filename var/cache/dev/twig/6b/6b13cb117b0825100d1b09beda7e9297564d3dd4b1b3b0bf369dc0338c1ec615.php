@@ -1,6 +1,6 @@
 <?php
 
-/* @PAPSLivraison/Front/about.html.twig */
+/* PAPSLivraisonBundle:Front:about.html.twig */
 class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf26538e7e extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("::base.html.twig", "@PAPSLivraison/Front/about.html.twig", 1);
+        $this->parent = $this->loadTemplate("::base.html.twig", "PAPSLivraisonBundle:Front:about.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
         );
@@ -22,10 +22,10 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
     protected function doDisplay(array $context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@PAPSLivraison/Front/about.html.twig"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PAPSLivraisonBundle:Front:about.html.twig"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@PAPSLivraison/Front/about.html.twig"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PAPSLivraisonBundle:Front:about.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
@@ -57,7 +57,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t\t\t\t<div class=\"row\">
 \t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">A propos des nous</h1>
-\t\t\t\t\t\t\t\t\t\t<p>Notre équipe est composée principalement de jeunes personnes aussi dynamiques qu'ambitionnées dans leur travail.</p>
+\t\t\t\t\t\t\t\t\t\t<p>Notre équipe est composée principalement de jeunes personnes trèsambitieuses et dynamiques dans leur travail.</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
@@ -116,7 +116,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/moustapha-2-crunch.png"), "html", null, true);
         echo "\" alt=\"\" class=\"img-responsive\">
 \t\t\t\t\t\t\t\t\t<h2>Ahmadou Moustapha Diao</h2>
-\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable de Compte</p>
+\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable Commercial</p>
 \t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t<li><a href=\"#\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t<li><a href=\" https://www.linkedin.com/in/moustapha-ahmadou-diao-923b93103/\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -131,7 +131,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/mareme-crunch.png"), "html", null, true);
         echo "\" alt=\"\" class=\"img-responsive\">
 \t\t\t\t\t\t\t\t\t<h2>Marème leye</h2>
-\t\t\t\t\t\t\t\t\t<p class=\"role\">Founder</p>
+\t\t\t\t\t\t\t\t\t<p class=\"role\">Assistante Commerciale</p>
 \t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t<li><a href=\"#\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.linkedin.com/in/mareme-leye-b04262165\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -153,8 +153,8 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         // line 93
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/mor-crunch.png"), "html", null, true);
         echo "\" alt=\"\" class=\"img-responsive\">
-\t\t\t\t\t\t\t\t\t\t<h2>Mor Ndiaye</h2>
-\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Dispatch Leader</p>
+\t\t\t\t\t\t\t\t\t\t<h2>Mor Djimby Ndiaye</h2>
+\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable Communauté Driver et Dispatch</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/DjimbyMor\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\" https://www.linkedin.com/in/mor-djimby-ndiaye-4a301bab/\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -183,7 +183,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/richard.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"img-responsive\">
 \t\t\t\t\t\t\t\t\t\t<h2>Richard Ndong</h2>
-\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Auditeur Interne</p>
+\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Auditeur Interne et Comptable</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/RXCH4RD?s=09\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\" https://www.linkedin.com/in/richard-alain-ndong-2a49ab134\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -213,8 +213,8 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         // line 141
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/arame-edited-crunch.png"), "html", null, true);
         echo "\" alt=\"\" class=\"img-responsive\">
-\t\t\t\t\t\t\t\t\t\t<h2>Ndeye Arame Camara</h2>
-\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Comptable</p>
+\t\t\t\t\t\t\t\t\t\t<h2>Ndéye Arame Camara</h2>
+\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Assistante Administrative</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/CamaraArame\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -225,7 +225,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         // line 150
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/aliou.png"), "html", null, true);
         echo "\" alt=\"\" class=\"img-responsive\">
-\t\t\t\t\t\t\t\t\t\t<h2>Aliou Fall</h2>
+\t\t\t\t\t\t\t\t\t\t<h2>Alioune Fall</h2>
 \t\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable commercial</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/ogballer90_al\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
@@ -264,7 +264,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/1492678157-about-icons-04-svg.svg"), "html", null, true);
         echo "');background-size: 150px;background-repeat: no-repeat;\">
 
-                        <h2>septembre 2016</h2>
+                        <h2>Septembre 2016</h2>
                         <p>Création</p>
                     </div>
                 </div>
@@ -286,7 +286,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         echo "');background-size: 160px;background-repeat: no-repeat;\">
                            
                         
-                         <h3 id=\"cooll\">2 000 euros</h3>
+                         <h3 id=\"cooll\">7 700 euros</h3>
                          <p><center>Investissement</center></p>
                          
                     </div>
@@ -297,7 +297,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
         echo "');background-size: 160px;background-repeat: no-repeat;\">
                           
                       
-                         <h3 id=\"cooll\">&nbsp;&nbsp;&nbsp;10</h3>
+                         <h3 id=\"cooll\">&nbsp;&nbsp;&nbsp;43</h3>
                         <p><center>Villes.</center></p>
 
                     </div>
@@ -357,7 +357,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 
     public function getTemplateName()
     {
-        return "@PAPSLivraison/Front/about.html.twig";
+        return "PAPSLivraisonBundle:Front:about.html.twig";
     }
 
     public function isTraitable()
@@ -392,7 +392,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t\t\t\t<div class=\"row\">
 \t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nav-text\">
 \t\t\t\t\t\t\t\t\t\t<h1 class=\"no-margin\">A propos des nous</h1>
-\t\t\t\t\t\t\t\t\t\t<p>Notre équipe est composée principalement de jeunes personnes aussi dynamiques qu'ambitionnées dans leur travail.</p>
+\t\t\t\t\t\t\t\t\t\t<p>Notre équipe est composée principalement de jeunes personnes trèsambitieuses et dynamiques dans leur travail.</p>
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
@@ -442,7 +442,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t\t\t\t<div class=\"gtco-staff\">
 \t\t\t\t\t\t\t\t\t<img src=\"{{ asset('images/moustapha-2-crunch.png')}}\" alt=\"\" class=\"img-responsive\">
 \t\t\t\t\t\t\t\t\t<h2>Ahmadou Moustapha Diao</h2>
-\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable de Compte</p>
+\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable Commercial</p>
 \t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t<li><a href=\"#\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t<li><a href=\" https://www.linkedin.com/in/moustapha-ahmadou-diao-923b93103/\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -454,7 +454,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t\t\t\t<div class=\"gtco-staff\">
 \t\t\t\t\t\t\t\t\t<img src=\"{{ asset('images/mareme-crunch.png')}}\" alt=\"\" class=\"img-responsive\">
 \t\t\t\t\t\t\t\t\t<h2>Marème leye</h2>
-\t\t\t\t\t\t\t\t\t<p class=\"role\">Founder</p>
+\t\t\t\t\t\t\t\t\t<p class=\"role\">Assistante Commerciale</p>
 \t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t<li><a href=\"#\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.linkedin.com/in/mareme-leye-b04262165\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -473,8 +473,8 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                               <div class=\"col-md-12\">
 \t\t\t\t\t\t\t\t\t<div class=\"gtco-staff\">
 \t\t\t\t\t\t\t\t\t\t<img src=\"{{ asset('images/mor-crunch.png')}}\" alt=\"\" class=\"img-responsive\">
-\t\t\t\t\t\t\t\t\t\t<h2>Mor Ndiaye</h2>
-\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Dispatch Leader</p>
+\t\t\t\t\t\t\t\t\t\t<h2>Mor Djimby Ndiaye</h2>
+\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable Communauté Driver et Dispatch</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/DjimbyMor\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\" https://www.linkedin.com/in/mor-djimby-ndiaye-4a301bab/\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -497,7 +497,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t\t\t\t\t<div class=\"gtco-staff\">
 \t\t\t\t\t\t\t\t\t\t<img src=\"{{ asset('images/richard.jpg')}}\" alt=\"\" class=\"img-responsive\">
 \t\t\t\t\t\t\t\t\t\t<h2>Richard Ndong</h2>
-\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Auditeur Interne</p>
+\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Auditeur Interne et Comptable</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/RXCH4RD?s=09\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\" https://www.linkedin.com/in/richard-alain-ndong-2a49ab134\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -521,8 +521,8 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t        <div class=\"owl-carousel owl-carousel-carousel\">
 \t\t\t\t\t\t\t   <div class=\"gtco-staff\">
 \t\t\t\t\t\t\t\t\t\t<img src=\"{{ asset('images/arame-edited-crunch.png')}}\" alt=\"\" class=\"img-responsive\">
-\t\t\t\t\t\t\t\t\t\t<h2>Ndeye Arame Camara</h2>
-\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Comptable</p>
+\t\t\t\t\t\t\t\t\t\t<h2>Ndéye Arame Camara</h2>
+\t\t\t\t\t\t\t\t\t\t<p class=\"role\">Assistante Administrative</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/CamaraArame\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\" target=\"_blank\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></a></li>
@@ -530,7 +530,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t<div class=\"gtco-staff\">
 \t\t\t\t\t\t\t\t\t\t<img src=\"{{ asset('images/aliou.png')}}\" alt=\"\" class=\"img-responsive\">
-\t\t\t\t\t\t\t\t\t\t<h2>Aliou Fall</h2>
+\t\t\t\t\t\t\t\t\t\t<h2>Alioune Fall</h2>
 \t\t\t\t\t\t\t\t\t\t<p class=\"role\">Responsable commercial</p>
 \t\t\t\t\t\t\t\t\t\t<ul class=\"fh5co-social\">
 \t\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://twitter.com/ogballer90_al\" target=\"_blank\"><i class=\"fa fa-twitter-square\" aria-hidden=\"true\"></i></a></li>
@@ -563,7 +563,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                     <div class=\"col-md-8 col-md-offset-2 gtco-heading text-center\">
 \t\t\t\t\t<img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('{{ asset ('images/1492678157-about-icons-04-svg.svg')}}');background-size: 150px;background-repeat: no-repeat;\">
 
-                        <h2>septembre 2016</h2>
+                        <h2>Septembre 2016</h2>
                         <p>Création</p>
                     </div>
                 </div>
@@ -579,7 +579,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                         <img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('{{ asset ('images/1492678197-about-icons-03-svg.svg')}}');background-size: 160px;background-repeat: no-repeat;\">
                            
                         
-                         <h3 id=\"cooll\">2 000 euros</h3>
+                         <h3 id=\"cooll\">7 700 euros</h3>
                          <p><center>Investissement</center></p>
                          
                     </div>
@@ -587,7 +587,7 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                         <img class=\"gtco-item two-row bg-img animate-box\" style=\"background-image: url('{{ asset ('images/1492678213-about-icons-02-svg.svg')}}');background-size: 160px;background-repeat: no-repeat;\">
                           
                       
-                         <h3 id=\"cooll\">&nbsp;&nbsp;&nbsp;10</h3>
+                         <h3 id=\"cooll\">&nbsp;&nbsp;&nbsp;43</h3>
                         <p><center>Villes.</center></p>
 
                     </div>
@@ -621,6 +621,6 @@ class __TwigTemplate_bb0da3795f39bfed908b1038d14e40ddfd4715df204255e59267c6cf265
                      </div>
         </div>
 \t\t\t
-{% endblock %}", "@PAPSLivraison/Front/about.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/about.html.twig");
+{% endblock %}", "PAPSLivraisonBundle:Front:about.html.twig", "/var/www/html/papsprojet/src/PAPS/LivraisonBundle/Resources/views/Front/about.html.twig");
     }
 }

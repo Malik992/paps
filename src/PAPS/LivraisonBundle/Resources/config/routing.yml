@@ -2,9 +2,9 @@ paps_livraison_homepage:
     path:     /
     defaults: { _controller: PAPSLivraisonBundle:Default:index }
 
-accueil:
-    path:     /accueil
-    defaults: { _controller: PAPSLivraisonBundle:Front:accueil }
+index:
+    path:     /index
+    defaults: { _controller: PAPSLivraisonBundle:Front:index }
 
 inscoursier:
     path:     /inscoursier

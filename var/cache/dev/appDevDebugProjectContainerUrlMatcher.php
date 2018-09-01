@@ -109,7 +109,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         // paps_livraison_homepage
         if ('' === $trimmedPathinfo) {
-            $ret = array (  '_controller' => 'PAPSLivraisonBundle:Default:index',  '_route' => 'paps_livraison_homepage',);
+            $ret = array (  '_controller' => 'PAPS\\LivraisonBundle\\Controller\\DefaultController::indexAction',  '_route' => 'paps_livraison_homepage',);
             if ('/' === substr($pathinfo, -1)) {
                 // no-op
             } elseif ('GET' !== $canonicalMethod) {
@@ -122,14 +122,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
         not_paps_livraison_homepage:
 
-        // accueil
-        if ('/accueil' === $pathinfo) {
-            return array (  '_controller' => 'PAPS\\LivraisonBundle\\Controller\\FrontController::accueilAction',  '_route' => 'accueil',);
-        }
-
-        // about
-        if ('/about' === $pathinfo) {
-            return array (  '_controller' => 'PAPS\\LivraisonBundle\\Controller\\FrontController::aboutAction',  '_route' => 'about',);
+        // index
+        if ('/index' === $pathinfo) {
+            return array (  '_controller' => 'PAPS\\LivraisonBundle\\Controller\\FrontController::indexAction',  '_route' => 'index',);
         }
 
         // inscoursier
@@ -145,6 +140,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         // service
         if ('/service' === $pathinfo) {
             return array (  '_controller' => 'PAPS\\LivraisonBundle\\Controller\\FrontController::serviceAction',  '_route' => 'service',);
+        }
+
+        // about
+        if ('/about' === $pathinfo) {
+            return array (  '_controller' => 'PAPS\\LivraisonBundle\\Controller\\FrontController::aboutAction',  '_route' => 'about',);
         }
 
         // homepage
